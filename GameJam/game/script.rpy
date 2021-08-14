@@ -22,6 +22,7 @@ label start:
     # grabs user PC name
     scene bg black
     
+
     # get player n
     python:
         player_name = renpy.input("What is your name?")
@@ -152,6 +153,7 @@ label start:
     hide klaus mad
 
     scene bg mansion
+    with fade
 
     "All five of us and the maid walk through the gates and head into the mansion. Upon entering the large
     wooden front door, you are greeted with a red velvet carpet and sparkling chandelier. 
@@ -215,6 +217,7 @@ label start:
     mansion to go to. You head up the stairs and find an empty guest room. "
 
     scene bg room2
+    with fade
 
     "You lay your bags down
     by the side of the bed and flop onto it. The sudden motion of the matress expelled an antique
@@ -229,7 +232,7 @@ label start:
     with fade
     "{i}As you begin to doze off, you hear a loud knock at your door. You open it and are greeted by an enthusiastic Klaus.{/i}"
     scene bg room2
-
+    with fade
     show klaus
     k "Hey homie! We're meeting up in the living room to chill and get to know each other. Wanna come?"
 
@@ -237,13 +240,14 @@ label start:
     hide klaus
 
     scene bg hallway
-
+    with fade
     "{i}Begrudgingly, you bring myself out of your room.
     Before you and Klaus head into the main lobby, 
     we hear Joffrey's loud ramblings echo through the halls{/i}"
 
     scene bg lobby
-    show joffrey
+    with fade
+    show joffrey smile
 
     j "Yeah, I don't go to university cause it's a total waste of time y'know. 
     9-5 jobs are for sheep that can't think for themselves. 
@@ -253,7 +257,7 @@ label start:
 
     me "{i}What is he going on about?{/i}"
 
-    hide joffrey
+    hide joffrey smile
     show annabelle
 
     a "I... Uh don't plan on dropping out..."
@@ -300,23 +304,61 @@ label start:
 
     a "I think want to be a nurse."
 
+    hide cherry mad
+    show cherry at right
+
     c "Oh my god! That's so cool! I'm trying to be a veterinarian! How about you [me]?"
 
     me "I don't really know what I'm going to be in the future, 
     so I'm in open studies right now. Business does seem pretty interesting, though."
 
+    hide annabelle
+    show joffrey smile at center
 
+    j "Attaboy, I always thought you were a wuss in high school, but now you have the alpha male mindset."
 
+    me "{i}...{/i}"
 
+    k "I’m trying to be a personal trainer, so I’m learning Kinesiology. But Joffrey, y’see what I mean? Everyone’s got something they wanna do."
 
+    j "Yeah, yeah, fine. I get it. Success isn’t meant for everyone."
 
+    c "I still think whatever you’re doing is dumb, but hey, to each to their own."
 
+    hide joffrey smile
+    show joffrey
 
+    me "You know, let's all get along. We’re lucky to be here, so we should try to at least make the most of it."
 
+    hide joffrey
+    show annabelle at center
+    a "I... I think I passed by a game room e-earlier. There was a ping pong table and stuff..."
 
+    hide klaus
+    show klaus at left
 
+    k "Hell yeah, I was a ping pong god in middle school! My nickname? The flaming paddler."
 
+    me "That’s great, let's head on over then."
 
+    hide joffrey
+    hide annabelle
+    hide cherry
+
+    scene bg hallway
+    with fade
+
+    "{i}You and the group go back into the hallway and head left. As you pass by the kitchen, the Chef notices the group walking by and shoots a nasty glare, 
+    but only you seemed to notice. You approach a red door that Annabelle points.{/i}"
+
+    scene bg arcade
+    with fade
+
+    "{i}Upon entering, you are greeted by a colourful, dimly lit room. 
+    There’s a huge pool table in the center of the room with a ping pong table next to ir. The walls are lined with arcade cabinets and there
+    are various brightly lit and flashing machines scattered in the room.{/i}"
+
+    k "{b}YO, THIS IS GREAT!{/b} I haven’t played pool in ages. Damn! They have this old arcade\ game too!"
 
 
 
