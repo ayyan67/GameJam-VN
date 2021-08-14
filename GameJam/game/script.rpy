@@ -20,7 +20,7 @@ define fullscreen = Character(None, kind=nvl, what_text_align=0.5, what_xalign=0
 label start:
 
     # grabs user PC name
-    scene bg room
+    scene bg black
     
     # get player n
     python:
@@ -43,7 +43,7 @@ label start:
     
     # PROLOGUE
 
-    "Friday 10 PM, you are browsing the internet when you get an email notification with an invitation."
+    "Friday 10 PM, you are browsing the internet on your phone when you get an email notification with an invitation."
     fullscreen "Dear invited guests \n 
     As we are celebrating the hundredth anniversary of our establishment, you are one of five candidates chosen to 
     stay at the esteemed Umair mansion for 3 days and nights! As a part of this event, 
@@ -60,7 +60,7 @@ label start:
 
     me "No shotthis is real, it has to be a scam."
    
-    "You search up if there are similar scams to the email you just received, but there are no results"
+    "You look up on your laptop if there are scams similar to the email you just received, but there seems to be no relevant results"
 
     me "Although if this ends up being real, I don't have to worry about my income or tuition for a bit."
 
@@ -138,18 +138,18 @@ label start:
 
     "He dumps his bags on the maid and strolls past her."
     hide joffrey
-    show cherry at right
-    hide cherry
+    show cherry mad at right
+    hide cherry mad
     c "What an ass..."
     
-    show klaus at right
+    show klaus mad at right
     k "Hey, these bags look pretty heavy. I can help carry them if you like."
     
     m "I appreciate the kind words but please spare your concern for me. 
     You are our valued guest and we will accommodate you fully over these next three days."
 
     hide maid
-    hide klaus
+    hide klaus mad
 
     scene bg mansion
 
@@ -187,18 +187,20 @@ label start:
 
     hide chef
     with moveoutleft
-    
+    hide joffrey
+    show joffrey smile at right
+
     "After some exchanged glances between the two, The Chef struts away, and Joffrey smiles smugly."
 
     hide maid
     with moveoutleft
-    show klaus at left
+    show klaus mad at left
     with moveinleft
 
     k "Yo, Joffrey, chill man. Don't go picking fights with people. We're all here for the same reason."
 
-    hide klaus
-    hide joffrey
+    hide klaus mad
+    hide joffrey smile
     show maid
 
     "The maid clears her throat and continues."
@@ -212,7 +214,7 @@ label start:
     "The group dissipates after hearing her words and everyone looks for their own corner of the
     mansion to go to. You head up the stairs and find an empty guest room. "
 
-    scene bg room
+    scene bg room2
 
     "You lay your bags down
     by the side of the bed and flop onto it. The sudden motion of the matress expelled an antique
@@ -223,16 +225,24 @@ label start:
     I'm going to take my sweet time and enjoy my time in this mansion. {/i}"
 
     # knock sound effect
-    "{i}As you begin to doze off, you hear a loud knock at your door.{/i}"
+    scene bg black
+    with fade
+    "{i}As you begin to doze off, you hear a loud knock at your door. You open it and are greeted by an enthusiastic Klaus.{/i}"
+    scene bg room2
 
+    show klaus
     k "Hey homie! We're meeting up in the living room to chill and get to know each other. Wanna come?"
 
     me "Huh? Ummm yeah sure, I guess I'll head down in a bit."
+    hide klaus
+
+    scene bg hallway
 
     "{i}Begrudgingly, you bring myself out of your room.
     Before you and Klaus head into the main lobby, 
     we hear Joffrey's loud ramblings echo through the halls{/i}"
 
+    scene bg lobby
     show joffrey
 
     j "Yeah, I don't go to university cause it's a total waste of time y'know. 
@@ -256,7 +266,7 @@ label start:
 
     show joffrey at left
     with move
-    show cherry at right
+    show cherry mad at right
 
     c "She said she doesn't want to join your stupid joke of a business."
 
@@ -268,7 +278,7 @@ label start:
 
     show joffrey at center
     with move
-    show klaus at left
+    show klaus mad at left
     with moveinleft
 
     k "Hey, hey, hey! Guys, let's settle down! 
@@ -284,7 +294,6 @@ label start:
 
     a "It's.. it's fine..."
 
-    
     k "Hey Joffrey man, I'm sure you're a great entrepreneur, and other people 
     would be more willing to join your business, but sometimes it's just not for everyone. 
     Annabelle's gotta have some stuff she wants to do after school too right?"
