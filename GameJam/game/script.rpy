@@ -423,7 +423,7 @@ init python:
             self.computery = self.playery
 
             # The speed of the computer.
-            self.computerspeed = 380.0
+            self.computerspeed = 600
 
             # The position, delta-position, and the speed of the
             # ball.
@@ -431,7 +431,7 @@ init python:
             self.by = self.playery
             self.bdx = .5
             self.bdy = .5
-            self.bspeed = 350.0
+            self.bspeed = 500.0
 
             # The time of the past render-frame.
             self.oldst = None
