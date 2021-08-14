@@ -618,14 +618,15 @@ label play_pong:
 
     show klaus
 
-if _return == "Klaus":
+    if _return == "Klaus":
 
-    me "Holy crap, Klaus is insane! I barely won by the skin of my teeth!" 
+        me "Holy crap, Klaus is insane! I barely won by the skin of my teeth!" 
 
-else:
+    else:
 
-    me "Holy crap, Klaus is insane! He destroyed me!"
+        me "Holy crap, Klaus is insane! He destroyed me!"
 
+    
     k "Man, that was fun! I sure worked up a sweat!"
 
     hide klaus
@@ -640,6 +641,8 @@ else:
 
     j "You boors done yet? I think it's time for dinner now."
 
+    hide cherry
+    hide annabelle
     show joffrey at left
     with move
     show klaus at right
@@ -650,12 +653,39 @@ else:
     hide klaus
 
     scene bg kitchen
-    "The groups gets seated in five grandiose dining chairs surrounding the large dinner table. 
+    "The group gets seated in five grandiose dining chairs surrounding the large dinner table. 
     The maid follows you out of the hallway carrying a jug of water, five glasses and five sets of cutlery, setting it all up in front of us."
+
+    show chef
+    with moveinleft
+    hide chef
+    with moveoutright
+
     "The head chef comes out balancing five plates like a performer and lays them out in front of us flawlessly. 
     The aroma that filled the table was enchanting, leaving all our mouths salivating, Cherry especially. 
     She begins wolfing down the steak while Joffrey pokes at his food"
 
+    show joffrey
+
+    j "I don't eat non-organic food because the carcinogens rot your brain and that's not a good long-term investment."
+
+    show joffrey at left
+    with move
+    show cherry at right
+    
+    c "Just enjoy the food pea brain."
+
+    show klaus
+
+    k "Holy moly! This steak's so tender, hey Chef how many grams is this?! I need to know how much protein to drink later!"
+
+    "{i}The chef ignores him and walks away. You could've sworn you saw him snear a little while he was leaving but that thought quickly leaves your head.{/i}"
+
+    scene 3hrs
+    with fade
+    pause 2
+    scene bg room2 # replace with room scene
+    with fade
 
     return
     
