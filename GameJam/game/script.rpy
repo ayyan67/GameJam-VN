@@ -661,7 +661,7 @@ label play_pong:
     hide chef
     with moveoutright
 
-    "The head chef comes out balancing five plates like a performer and lays them out in front of us flawlessly. 
+    "The head chef comes out balancing five plates like a performer and lays them out in front of you flawlessly. 
     The aroma that filled the table was enchanting, leaving all our mouths salivating, Cherry especially. 
     She begins wolfing down the steak while Joffrey pokes at his food"
 
@@ -687,5 +687,68 @@ label play_pong:
     scene bg room2 # replace with room scene
     with fade
 
-    return
+    me "{i}After eating, we all headed up to our rooms. 
+    Joffrey was rambling about doubling profits from his business to Annabelle but she politely shooed him away and closed her door. 
+    Joffrey sighs, scoffs and enters the room next to Annabelle's.{/i}"
+    me "{i}Cherry ended up napping in the living room. I assume she asked Chef for thirds and probably passed out from a food-coma. 
+    I think Klaus got his hands into the wine cellar and started drinking whatever liquid he could find. He's probably passed out there as well. 
+    It's only 10 PM and I'm not sleeping anytime soon, I think I'll just head out, explore the mansion and see if I can talk to anybody.{/i}"
+
+    scene bg hallway
+    with fade
+
+    "You exit your room and hear splashing outside. 
+    You go to the end of the hallway and see Annabelle sitting by the pool."
     
+    "You jump up and head downstairs to the living room and see Cherry on the floor groaning."
+
+    scene bg lobby
+    show cherry sad
+    
+    me "Hey, you alright?"
+
+    c "Yeah... Yeah... I'm fine..."
+
+    me "I don't know about that, it looked like you hit your head pretty hard."
+
+    hide cherry sad
+    show cherry
+    c "Nah! I'm built like a potato!"
+
+    me "{i}Potato?!{/1}"
+
+    c "I'm pretty famished though."
+
+    me "{i}She's famished?!{/1}"
+
+    menu:
+        "test"
+
+        "Help cherry find some food":
+
+            # Choice 1: Help Cherry find food.
+
+            jump day2cherry
+
+        "Hang out with Annabelle at the pool":
+
+            # Choice 2: Talk to Annabelle
+
+            jump day2anna
+
+    label after_menu:
+        "After having my drink, I got on with my morning."
+
+
+label day2cherry
+
+    "HERE IS DAY 2 CHERRY ROUTE"
+
+    return
+
+
+label day2anna
+
+    "HERE IS DAY 2 ANNA ROUTE"
+
+    return
