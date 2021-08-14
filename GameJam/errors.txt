@@ -2,9 +2,13 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 163: expected 'simple_expression' not found.
-    with with moveinbottom
-         ^
+File "game/script.rpy", line 397: python block expects a non-empty block.
+    init python:
+                ^
+
+File "game/script.rpy", line 399: expected statement.
+    class PongDisplayable(renpy.Displayable):
+                         ^
 
 Ren'Py Version: Ren'Py 7.4.8.1895
-Sat Aug 14 12:59:11 2021
+Sat Aug 14 14:00:18 2021
