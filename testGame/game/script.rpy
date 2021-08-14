@@ -4,8 +4,6 @@
 # name of the character.
 
 # At the start of script.rpy, add this code:
-init python:
-    import os
 
 define a = Character("Aly")
 
@@ -67,9 +65,6 @@ label badend:
     a "ur an imposter"
     a "i never want to see you again im deleting the save file"
     a "dont try to reset"
-    python:
-        os.remove('Desktop/Test/game/saves/1-1-LT1.save')
-        # Specify the file path as well
     jump quit
 
 
