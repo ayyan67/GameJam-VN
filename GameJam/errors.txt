@@ -2,10 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 28: invalid syntax
-    $ user = os.environ.get('username')
-     ^
-    
+File "game/script.rpy", line 163: expected 'simple_expression' not found.
+    with with moveinbottom
+         ^
 
 Ren'Py Version: Ren'Py 7.4.8.1895
-Sat Aug 14 02:22:07 2021
+Sat Aug 14 12:59:11 2021

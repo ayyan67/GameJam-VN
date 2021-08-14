@@ -73,7 +73,7 @@ label start:
     scene day1
     with fade
     pause 2
-    scene bg room # replace with mansion scene
+    scene bg mansionentrance # replace with mansion scene
     with fade
 
     "It's a sunny day, and you arrive at the mansion by Bus and a short walk. 
@@ -81,16 +81,16 @@ label start:
     "The thought that the email was actually a scam is about to set you off until you see other people gathered waiting in front of a gate. 
     Out of the four, a tall, muscular man waves you over to the group."
 
+
     show klaus
-    
     unknown "Hey you must be the fifth, I'm Klaus"
 
-    
     me "Hey, nice to meet you, same with you guys. I'm [me]. I think we were in the same lecture before, right? 
     I didn't think I'd see someone from my university here."
     hide klaus  
-
+  
     show joffrey
+
     unknown "Yo, I recognize you from highschool. You were the loser who sat in the back of the class."
 
     me "..."
@@ -99,7 +99,8 @@ label start:
     I think his name was Joffrey or something. He pissed off all the teachers and slept around too. 
     Right now, he dresses a bit better, but his personality is as shitty as it was back in school{/i}"
     hide joffrey  
-    
+
+
     show cherry
 
     c "Cherry: Hey my name's Cherry. 
@@ -116,6 +117,10 @@ label start:
     me "{i}I could barely make out what she said from behind her thick round glasses. 
     Despite her appearance, her timid nature seemed discrepant.{/i}"
 
+    hide annabelle
+
+    show maid
+    with moveinleft
     "A cold breeze blew past us as the gates of the mansion swung wide open. 
     A tall woman in a Victorian maid dress steps out. 
     Her face was expressionless as she bows and welcomes us to the mansion."
@@ -124,22 +129,38 @@ label start:
     I will be your guide for your stay. 
     Please, let me carry your luggage."
 
+    show maid at left
+    with move
+    show joffrey at right
+
+
     j "Damn girl, you ain't so bad-looking!"
 
     "He dumps his bags on the maid and strolls past her."
-
+    hide joffrey
+    show cherry at right
+    hide cherry
     c "What an ass..."
-
+    
+    show klaus at right
     k "Hey, these bags look pretty heavy. I can help carry them if you like."
-
+    
     m "I appreciate the kind words but please spare your concern for me. 
     You are our valued guest and we will accommodate you fully over these next three days."
+
+    hide maid
+    hide klaus
+
+    scene bg mansion
 
     "All five of us and the maid walk through the gates and head into the mansion. Upon entering the large
     wooden front door, you are greeted with a red velvet carpet and sparkling chandelier. 
     "
     "Between two massive spiral staircases stands a tall buff man with a perm. 
     He wears an intense, irritated expression."
+
+    show chef
+    with moveinbottom
 
     ch "I'm the Head Chef around here, which is the name you MUST refer to me as. 
     Breakfast is at 8. Lunch is at 2. Dinner at 8. If you miss it, tough luck. 
@@ -149,21 +170,50 @@ label start:
 
     ch "{b}I can't hear you, is that a yes?!{/b}"
 
+    show chef at left
+    with move
+    show joffrey at right
+
     j "Piss off! I'm your guest and someone like me deserves all kinds of respect around here."
 
+    show chef at center
+    with move
+    show maid at left
+    with move
+
+
     "The chef approaches Joffrey with a tightened fist, but he is promptly stopped by the maid. 
-    The Chef sighs and furrows his brows. He looks even more irritated than before. 
-    After some exchanged betweent he two, The Chef struts away, and Joffrey smiles smugly."
+    The Chef sighs and furrows his brows. He looks even more irritated than before. "
+
+    hide chef
+    with moveoutleft
+    
+    "After some exchanged glances between the two, The Chef struts away, and Joffrey smiles smugly."
+
+    hide maid
+    with moveoutleft
+    show klaus at left
+    with moveinleft
 
     k "Yo, Joffrey, chill man. Don't go picking fights with people. We're all here for the same reason."
+
+    hide klaus
+    hide joffrey
+    show maid
 
     "The maid clears her throat and continues."
 
     m "The Master will wholeheartedly welcome his guests after he returns from his business trip. 
     Please make yourself at home for the time being."
 
+
+    hide maid
+
     "The group dissipates after hearing her words and everyone looks for their own corner of the
     mansion to go to. You head up the stairs and find an empty guest room. "
+
+    scene bg room
+
     "You lay your bags down
     by the side of the bed and flop onto it. The sudden motion of the matress expelled an antique
     smell that quickly filled the room."
@@ -172,15 +222,18 @@ label start:
     me "{i}Despite the scene Joffrey made, it doesn't concern me. 
     I'm going to take my sweet time and enjoy my time in this mansion. {/i}"
 
+    # knock sound effect
     "{i}As you begin to doze off, you hear a loud knock at your door.{/i}"
 
     k "Hey homie! We're meeting up in the living room to chill and get to know each other. Wanna come?"
 
     me "Huh? Ummm yeah sure, I guess I'll head down in a bit."
 
-    me"{i}Begrudgingly, I bring myself out of my room.
-    Before me and Klaus head into the room, 
-    we hear Joffrey's loud ramblings through the halls{/i}"
+    "{i}Begrudgingly, you bring myself out of your room.
+    Before you and Klaus head into the main lobby, 
+    we hear Joffrey's loud ramblings echo through the halls{/i}"
+
+    show joffrey
 
     j "Yeah, I don't go to university cause it's a total waste of time y'know. 
     9-5 jobs are for sheep that can't think for themselves. 
@@ -190,39 +243,72 @@ label start:
 
     me "{i}What is he going on about?{/i}"
 
+    hide joffrey
+    show annabelle
+
     a "I... Uh don't plan on dropping out..."
 
-    j "C'mon... Don't be dumb. You know who Elon Musk is, right? 
+    hide annabelle
+    show joffrey
+
+    j "C'mon... Don't be dumb. You know who Elon Musk is, right? R
     He said Dogecoin is gonna hit a dollar. I swear I know my shi-"
 
-    c "She said she doesn’t want to join your stupid joke of a business."
+    show joffrey at left
+    with move
+    show cherry at right
+
+    c "She said she doesn't want to join your stupid joke of a business."
 
     j "Shut up, no one's talking to you tubby."
 
     me "{i}...{/i}"
 
-    c "I may enjoy food, but at least I’m not a stingy rat."
+    c "I may enjoy food, but at least I'm not a stingy rat."
+
+    show joffrey at center
+    with move
+    show klaus at left
+    with moveinleft
 
     k "Hey, hey, hey! Guys, let's settle down! 
-    Joffrey man, what’d I say about chilling out, yo?"
+    Joffrey man, what'd I say about chilling out, yo?"
 
     j "She called my business stupid. She had it coming..."
 
-    c "This guy won’t stop bothering Annabelle with his annoying bullshit and keeps talking over her. 
-    Why wouldn’t I step in?"
+    c "This guy won't stop bothering Annabelle with his annoying bullshit and keeps talking over her. 
+    Why wouldn't I step in?"
+    
+    hide joffrey
+    show annabelle at center
 
-    a "It’s.. it’s fine..."
+    a "It's.. it's fine..."
 
-    k "Hey Joffrey man, I’m sure you’re a great entrepreneur, and other people 
+    
+    k "Hey Joffrey man, I'm sure you're a great entrepreneur, and other people 
     would be more willing to join your business, but sometimes it's just not for everyone. 
-    Annabelle’s gotta have some stuff she wants to do after school too right?"
+    Annabelle's gotta have some stuff she wants to do after school too right?"
 
     a "I think want to be a nurse."
 
-    c "Oh my god! That’s so cool! I’m trying to be a veterinarian! How about you [me]?"
+    c "Oh my god! That's so cool! I'm trying to be a veterinarian! How about you [me]?"
 
-    me "I don’t really know what I’m going to be in the future, 
-    so I’m in open studies right now. Business does seem pretty interesting, though."
+    me "I don't really know what I'm going to be in the future, 
+    so I'm in open studies right now. Business does seem pretty interesting, though."
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
     return
