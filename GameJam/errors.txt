@@ -1,0 +1,11 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/script.rpy", line 28: invalid syntax
+    $ user = os.environ.get('username')
+     ^
+    
+
+Ren'Py Version: Ren'Py 7.4.8.1895
+Sat Aug 14 02:22:07 2021
