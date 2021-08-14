@@ -740,15 +740,15 @@ label play_pong:
         "After having my drink, I got on with my morning."
 
 
-label day2cherry
+#label day2cherry
 
-    "HERE IS DAY 2 CHERRY ROUTE"
+ #   "HERE IS DAY 2 CHERRY ROUTE"
 
-    return
+  #  return
 
 
-label day2anna
+#label day2anna
 
-    "HERE IS DAY 2 ANNA ROUTE"
+ #   "HERE IS DAY 2 ANNA ROUTE"
 
-    return
+  #  return
