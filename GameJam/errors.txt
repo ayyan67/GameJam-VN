@@ -2,13 +2,13 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 397: python block expects a non-empty block.
-    init python:
-                ^
+File "game/script.rpy", line 743: expected ':' not found.
+    label day2cherry
+                    ^
 
-File "game/script.rpy", line 399: expected statement.
-    class PongDisplayable(renpy.Displayable):
-                         ^
+File "game/script.rpy", line 750: expected ':' not found.
+    label day2anna
+                  ^
 
 Ren'Py Version: Ren'Py 7.4.8.1895
-Sat Aug 14 14:00:18 2021
+Sat Aug 14 14:55:41 2021

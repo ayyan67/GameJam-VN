@@ -56,8 +56,7 @@ label start:
     Address: XXXX XXXXXX XXXXXX\n
     \n
     Sincerely, 
-    The Household of Umair
-    "
+    The Household of Umair"
 
     me "No shotthis is real, it has to be a scam."
    
@@ -620,11 +619,12 @@ label play_pong:
 
     if _return == "Klaus":
 
-        me "Holy crap, Klaus is insane! I barely won by the skin of my teeth!" 
+        
+        me "Holy crap, Klaus is insane! He destroyed me!"
 
     else:
 
-        me "Holy crap, Klaus is insane! He destroyed me!"
+        me "Holy crap, Klaus is insane! I barely won by the skin of my teeth!" 
 
     
     k "Man, that was fun! I sure worked up a sweat!"
@@ -740,14 +740,14 @@ label play_pong:
         "After having my drink, I got on with my morning."
 
 
-label day2cherry
+label day2cherry:
 
     "HERE IS DAY 2 CHERRY ROUTE"
 
     return
 
 
-label day2anna
+label day2anna:
 
     "HERE IS DAY 2 ANNA ROUTE"
 
