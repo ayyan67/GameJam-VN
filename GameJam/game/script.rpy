@@ -56,8 +56,7 @@ label start:
     Address: XXXX XXXXXX XXXXXX\n
     \n
     Sincerely, 
-    The Household of Umair
-    "
+    The Household of Umair"
 
     me "No shotthis is real, it has to be a scam."
    
@@ -424,7 +423,7 @@ init python:
             self.computery = self.playery
 
             # The speed of the computer.
-            self.computerspeed = 380.0
+            self.computerspeed = 600
 
             # The position, delta-position, and the speed of the
             # ball.
@@ -432,7 +431,7 @@ init python:
             self.by = self.playery
             self.bdx = .5
             self.bdy = .5
-            self.bspeed = 350.0
+            self.bspeed = 500.0
 
             # The time of the past render-frame.
             self.oldst = None
@@ -620,11 +619,12 @@ label play_pong:
 
     if _return == "Klaus":
 
-        me "Holy crap, Klaus is insane! I barely won by the skin of my teeth!" 
+        
+        me "Holy crap, Klaus is insane! He destroyed me!"
 
     else:
 
-        me "Holy crap, Klaus is insane! He destroyed me!"
+        me "Holy crap, Klaus is insane! I barely won by the skin of my teeth!" 
 
     
     k "Man, that was fun! I sure worked up a sweat!"
