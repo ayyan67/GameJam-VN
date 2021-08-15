@@ -162,7 +162,7 @@ label cherryChoose:
 
             c "Annabelle why! I thought we became friends" 
 
-            a "Cherry, you were the first person I told about my family and our situation. So you should know full well how much I need the money for my dad’s operation." 
+            a "Cherry, you were the first person I told about my family and our situation. So you should know full well how much I need the money for my dad's operation." 
             a "If come out of this trip with no cash, my Dad will be euthanized."
 
             c "But-"
@@ -177,9 +177,9 @@ label cherryChoose:
             hide annabelle smile
             show annabelle
             with dissolve
-            a "My Dad is on his last breath, and unless I make it there with the money for the operation, they’re going to euthanize him."
+            a "My Dad is on his last breath, and unless I make it there with the money for the operation, they're going to euthanize him."
             "Don't you understand? Me going home empty-handed would be the same as killing him" 
-            a "I love my dad. He’s the entire world to me. So if he dies. I’m better off dead as well"
+            a "I love my dad. He's the entire world to me. So if he dies. I'm better off dead as well"
 
             "Your eyes are filled with terror. You're shaking. But Annabelle's gaze does not waver." 
 
@@ -205,14 +205,14 @@ label cherryChoose:
 
             "Annabelle cracks open the revolver and glances at the chamber. She looks surprised for a moment before letting out a sign of resignation." 
 
-            a "Fate’s really cruel, huh." 
+            a "Fate's really cruel, huh." 
 
             "Annabelle puts the gun to her head." 
 
             hide annabelle
             show annabelle smile
 
-            a "I’ll see you later dad."
+            a "I'll see you later dad."
 
             me "{b}ANNABELLE STOP-{/b}" 
             play sound "audio/gun.mp3"

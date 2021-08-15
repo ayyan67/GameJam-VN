@@ -315,16 +315,16 @@ label start:
 
     me "{i}...{/i}"
 
-    k "I’m trying to be a personal trainer, so I’m learning Kinesiology. But Joffrey, y’see what I mean? Everyone’s got something they wanna do."
+    k "I'm trying to be a personal trainer, so I'm learning Kinesiology. But Joffrey, y'see what I mean? Everyone's got something they wanna do."
 
-    j "Yeah, yeah, fine. I get it. Success isn’t meant for everyone."
+    j "Yeah, yeah, fine. I get it. Success isn't meant for everyone."
 
-    c "I still think whatever you’re doing is dumb, but hey, to each to their own."
+    c "I still think whatever you're doing is dumb, but hey, to each to their own."
 
     hide joffrey smile
     show joffrey
 
-    me "You know, let's all get along. We’re lucky to be here, so we should try to at least make the most of it."
+    me "You know, let's all get along. We're lucky to be here, so we should try to at least make the most of it."
 
     hide joffrey
     show annabelle at center
@@ -335,7 +335,7 @@ label start:
 
     k "Hell yeah, I was a ping pong god in middle school! My nickname? The flaming paddler."
 
-    me "That’s great, let's head on over then."
+    me "That's great, let's head on over then."
 
     hide joffrey
     hide annabelle
@@ -351,10 +351,10 @@ label start:
     with fade
 
     "{i}Upon entering, you are greeted by a colourful, dimly lit room. 
-    There’s a huge pool table in the center of the room with a ping pong table next to it. The walls are lined with arcade cabinets and there
+    There's a huge pool table in the center of the room with a ping pong table next to it. The walls are lined with arcade cabinets and there
     are various brightly lit and flashing machines scattered in the room.{/i}"
 
-    k "{b}YO, THIS IS GREAT!{/b} I haven’t played pool in ages. Damn! They have this old arcade game too!"
+    k "{b}YO, THIS IS GREAT!{/b} I haven't played pool in ages. Damn! They have this old arcade game too!"
 
 
 init python:

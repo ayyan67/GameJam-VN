@@ -2,35 +2,9 @@
 errors listed below, and try again.
 
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-File "game/script.rpy", line 25: end of line expected.
-    input id "input" color "#ffffff"
-                     ^
+File "game/annaRouteCherry.rpy", line 64: expected statement.
+    music stop fadeout 1
+                        ^
 
 Ren'Py Version: Ren'Py 7.4.8.1895
-Sun Aug 15 13:56:30 2021
-=======
-<<<<<<< HEAD
-File "game/annaRouteSurveillance.rpy", line 110: indentation mismatch.
-
-Ren'Py Version: Ren'Py 7.4.8.1895
-Sun Aug 15 14:40:37 2021
-=======
-File "game/cherryRoute.rpy", line 113: expected end of line
-    stop sound "audio/alarm.mp3" fadeout 1.0
-               ^
-
-Ren'Py Version: Ren'Py 7.4.8.1895
-Sun Aug 15 13:07:00 2021
-Sun Aug 15 14:03:51 2021
->>>>>>> aefd6b307f82626da48a241954bb4252b0a27470
->>>>>>> 36a40accc276529fec54ff4d6c87363579a81bae
-=======
-File "game/annaRoutePantry.rpy", line 32: Line is indented, but the preceding say statement statement does not expect a block. Please check this line's indentation.
-    pause 2
-    ^
-
-Ren'Py Version: Ren'Py 7.4.8.1895
-Sun Aug 15 14:57:40 2021
->>>>>>> 3594403bfc13174f9263d3c40bae718417942cf7
+Sun Aug 15 14:26:15 2021
