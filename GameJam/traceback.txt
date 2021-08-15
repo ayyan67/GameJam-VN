@@ -1,15 +1,15 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
-While processing text tag {/i} in u"I'll kill the murderer and save everyone. I can only trust myself. Yeah. It's gotta be them. {/i}".:
-  File "game/cherryRouteRevolver.rpy", line 46, in script
-    me"I'll kill the murderer and save everyone. I can only trust myself. Yeah. It's gotta be them. {/i}"
+While processing text tag {/i} in u"I still have some energy left in me so I guess I'll look around the mansion.{/i}".:
+  File "game/cherryRoute.rpy", line 59, in script
+    "I still have some energy left in me so I guess I'll look around the mansion.{/i}"
 Exception: u'/i' closes a text tag that isn't open.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/cherryRouteRevolver.rpy", line 46, in script
-    me"I'll kill the murderer and save everyone. I can only trust myself. Yeah. It's gotta be them. {/i}"
+  File "game/cherryRoute.rpy", line 59, in script
+    "I still have some energy left in me so I guess I'll look around the mansion.{/i}"
   File "C:\Users\Leo\Downloads\renpy-7.4.8-sdk/renpy/ast.py", line 716, in execute
     renpy.exports.say(who, what, *args, **kwargs)
   File "C:\Users\Leo\Downloads\renpy-7.4.8-sdk/renpy/exports.py", line 1417, in say
@@ -54,10 +54,6 @@ Full traceback:
     st, at)
   File "render.pyx", line 170, in renpy.display.render.render
   File "render.pyx", line 263, in renpy.display.render.render
-  File "C:\Users\Leo\Downloads\renpy-7.4.8-sdk/renpy/display/layout.py", line 814, in render
-    surf = render(child, width, height, cst, cat)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 263, in renpy.display.render.render
   File "C:\Users\Leo\Downloads\renpy-7.4.8-sdk/renpy/text/text.py", line 2060, in render
     virtual_layout = Layout(self, width, height, renders, drawable_res=False, size_only=True)
   File "C:\Users\Leo\Downloads\renpy-7.4.8-sdk/renpy/text/text.py", line 610, in __init__
@@ -69,4 +65,4 @@ Exception: u'/i' closes a text tag that isn't open.
 Windows-10-10.0.19041
 Ren'Py 7.4.8.1895
 GameJam 1.0
-Sat Aug 14 22:47:10 2021
+Sat Aug 14 23:06:06 2021

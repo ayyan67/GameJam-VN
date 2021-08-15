@@ -56,7 +56,7 @@ label day2cherry:
     scene bg hallway night
     me "{i}I head back to my room, leaving Cherry in the living room with all my snacks. 
     As I pass by the glass doors leading to the outdoor pool in the back yard, I catch a glimpse of someone still swimming in the pool."
-    "I still have some energy left in me so I guess I'll look around the mansion.{/i}"
+    me "{i}I still have some energy left in me so I guess I'll look around the mansion.{/i}"
 
     "You leave the living room and take a left and then a right. Across the hallway, it's a dead-end, but you notice a staircase leading down below."
 
@@ -68,7 +68,7 @@ label day2cherry:
     with fade
     "You take a left and see the basement under a smaller set of stairs. On the basement door, you see a map of the first and ground floors of the mansion."
 
-    show mansion map
+    show mansion map at center
     with dissolve
 
     me "{i}This seems pretty handy, I guess I'll keep it on me{/i}"
