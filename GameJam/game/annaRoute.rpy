@@ -14,17 +14,9 @@ with dis
 "{i}It's a clear night sky but the slightly wet grass gives off the smell of fresh summer dew as if it's about to rain. 
 Annabelle, sits on the edge and lightly paddles her feet, making ripples in the water. I sit next to her and dip my feet in as well{/i}"
 
-<<<<<<< HEAD
-
-
 me"Hey Annabelle, enjoying yourself?"
 
 a"I suppose..."
-=======
-me"Y'know sitting by a glowing pool at night is kinda aesthetic."
-
-a"I suppose you're right..."
->>>>>>> 76a88fc28fd02dafea861b89901f4ce56e6a9420
 
 me"Smells like rain. You think it's gonna rain?"
 
@@ -87,7 +79,6 @@ a"Oh… sorry, I just…remembered something painful…"
 
 a"As much as I wished I lived a normal childhood… I just can't get angry at my dad… With him having to raise me under those conditions,  I want to do my best to repay him… I want him to retire comfortably…"
 
-<<<<<<< HEAD
 me"That’s really admirable, not a lot of people think that way about their parents…"
 
 a"I wanted to get a part-time job… But all he says is that I should stay in school… He says that he’ll work extra hard to make sure we can get by…"
@@ -95,24 +86,10 @@ a"I wanted to get a part-time job… But all he says is that I should stay in sc
 a "But he collapsed 3 months ago and is currently on life support. If I can’t get $ 45,000 by the end of this month they’ll euthanize him…"
 
 "{i}Holy shit… {/i}"
-=======
-
-me"That's really admirable, not a lot of people think that way about their parents…"
-
-a"I wanted to get a part-time job… But all he says is that I should stay in school… He says that he'll work extra hard to make sure we can get by…" 
-
-a"That's why I came on this trip… $100,000 dollars after 3 days…" 
-
-me"Yeah, that's too good of an opportunity to pass up." 
->>>>>>> 76a88fc28fd02dafea861b89901f4ce56e6a9420
 
 a"That’s why I came on this trip, I need that cash prize or dad will..."
 
-<<<<<<< HEAD
 me "I- I don’t even know what to say."
-=======
-me"As long as you stay in school, I'm sure everything will work out! You'll land that nursing position and live a good life. I'm sure that's what your dad would want too."
->>>>>>> 76a88fc28fd02dafea861b89901f4ce56e6a9420
 
 a  "I just don’t know what to do. I’m at my wits end. Even though I thought this trip was a scam I still came."
 
@@ -127,24 +104,14 @@ a"Thanks…"
 
 me"It's no problem"
 
-<<<<<<< HEAD
 a"No really… I’ve never told anyone about my family life… It just feels good getting this off my chest…"
 
 me"Don’t worry, I can always lend an ear anytime!"
-=======
-a"No really… I've never told anyone about my family life… It just feels good getting this off my chest…" 
-
-me"Don't worry, I can always lend an ear anytime!" 
->>>>>>> 76a88fc28fd02dafea861b89901f4ce56e6a9420
 
 hide annabelle sad
 show annabelle smile
 
-<<<<<<< HEAD
 a"Thank you so much."
-=======
-me"It's getting pretty late,  wanna head back upstairs?" 
->>>>>>> 76a88fc28fd02dafea861b89901f4ce56e6a9420
 
 me"It’s getting pretty late,  wanna head back upstairs?"
 
