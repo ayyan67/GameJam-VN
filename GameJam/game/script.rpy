@@ -56,9 +56,10 @@ label start:
     Address: XXXX XXXXXX XXXXXX\n
     \n
     Sincerely, 
-    The Household of Umair"
+    The Household of Umair
+    "
 
-    me "No shotthis is real, it has to be a scam."
+    me "No shot this is real, it has to be a scam."
    
     "You look up on your laptop if there are scams similar to the email you just received, but there seems to be no relevant results"
 
@@ -94,7 +95,7 @@ label start:
     unknown "Yo, I recognize you from highschool. You were the loser who sat in the back of the class."
 
     me "..."
-
+    
     me "{i}I don't know where he goes now, but he was a total druggie back in high school. 
     I think his name was Joffrey or something. He pissed off all the teachers and slept around too. 
     Right now, he dresses a bit better, but his personality is as shitty as it was back in school{/i}"
@@ -103,7 +104,7 @@ label start:
 
     show cherry
 
-    c "Cherry: Hey my name's Cherry. 
+    c "Hey my name's Cherry. 
     I went to Southside high school so this is probably my first time seeing all of you."
     c"Did you guys come for the food as well?
     I bet a mansion this big has a chef or something so it seemed like a pretty worthy gamble to come here!"
@@ -115,7 +116,7 @@ label start:
     unknown "Hi... I'm Annabelle..."
 
     me "{i}I could barely make out what she said from behind her thick round glasses. 
-    Despite her appearance, her timid nature seemed discrepant.{/i}"
+    Despite her appearance, something felt off about her timid personality.{/i}"
 
     hide annabelle
 
@@ -240,7 +241,7 @@ label start:
 
     scene bg hallway
     with fade
-    "{i}Begrudgingly, you bring myself out of your room.
+    "{i}Begrudgingly, you bring yourself out of your room.
     Before you and Klaus head into the main lobby, 
     we hear Joffrey's loud ramblings echo through the halls{/i}"
 
@@ -251,7 +252,7 @@ label start:
     j "Yeah, I don't go to university cause it's a total waste of time y'know. 
     9-5 jobs are for sheep that can't think for themselves. 
     "
-    "Think about it, Anna, drop out and become my secretary. 
+    j"Think about it, Anna, drop out and become my secretary. 
     I'm raking it in, you can make a shit ton of money too."
 
     me "{i}What is he going on about?{/i}"
@@ -264,7 +265,7 @@ label start:
     hide annabelle
     show joffrey
 
-    j "C'mon... Don't be dumb. You know who Elon Musk is, right? R
+    j "C'mon... Don't be dumb. You know who Elon Musk is, right?
     He said Dogecoin is gonna hit a dollar. I swear I know my shi-"
 
     show joffrey at left
@@ -318,20 +319,19 @@ label start:
 
     me "{i}...{/i}"
 
-    k "I'm trying to be a personal trainer, so I'm learning Kinesiology. But Joffrey, y'see what I mean? Everyone's got something they wanna do."
+    k "I’m trying to be a personal trainer, so I’m learning Kinesiology. But Joffrey, y’see what I mean? Everyone’s got something they wanna do."
 
-    j "Yeah, yeah, fine. I get it. Success isn't meant for everyone."
+    j "Yeah, yeah, fine. I get it. Success isn’t meant for everyone."
 
-    c "I still think whatever you're doing is dumb, but hey, to each to their own."
+    c "I still think whatever you’re doing is dumb, but hey, to each to their own."
 
     hide joffrey smile
     show joffrey
 
-    me "You know, let's all get along. We're lucky to be here, so we should try to at least make the most of it."
+    me "You know, let's all get along. We’re lucky to be here, so we should try to at least make the most of it."
 
     hide joffrey
     show annabelle at center
-
     a "I... I think I passed by a game room e-earlier. There was a ping pong table and stuff..."
 
     hide klaus
@@ -339,7 +339,7 @@ label start:
 
     k "Hell yeah, I was a ping pong god in middle school! My nickname? The flaming paddler."
 
-    me "That's great, let's head on over then."
+    me "That’s great, let's head on over then."
 
     hide joffrey
     hide annabelle
@@ -355,44 +355,11 @@ label start:
     with fade
 
     "{i}Upon entering, you are greeted by a colourful, dimly lit room. 
-    There's a huge pool table in the center of the room with a ping pong table next to ir. The walls are lined with arcade cabinets and there
+    There’s a huge pool table in the center of the room with a ping pong table next to it. The walls are lined with arcade cabinets and there
     are various brightly lit and flashing machines scattered in the room.{/i}"
 
-    show klaus
-    with moveinbottom
+    k "{b}YO, THIS IS GREAT!{/b} I haven’t played pool in ages. Damn! They have this old arcade\ game too!"
 
-    k "{b}YO, THIS IS GREAT!{/b} I haven't played pool in ages. Damn! They have this old arcade game too!"
-
-    show klaus at left
-    with move
-
-    show annabelle
-
-    a "This is my first time seeing a pool table..."
-
-    show cherry at right
-
-    c "Hey, I've played pool before I can teach you!"
-
-    a "Thanks..."
-
-    hide annabelle
-    hide cherry
-    show joffrey at right
-    with moveinright
-
-    j "Hmph, all this is child's play unless you guys want to bet some real money."
-
-    hide joffrey
-    with moveoutright
-    show klaus at center
-    with move
-
-    k "Wanna play homie? You seem full of potential."
-
-    me "I haven't played in years, but sure I can take you on."
-
-    k "{b}LET'S DO THIS!!{/b}"
 
 init python:
 
@@ -693,9 +660,12 @@ label play_pong:
     me "{i}After eating, we all headed up to our rooms. 
     Joffrey was rambling about doubling profits from his business to Annabelle but she politely shooed him away and closed her door. 
     Joffrey sighs, scoffs and enters the room next to Annabelle's.{/i}"
+
     me "{i}Cherry ended up napping in the living room. I assume she asked Chef for thirds and probably passed out from a food-coma. 
-    I think Klaus got his hands into the wine cellar and started drinking whatever liquid he could find. He's probably passed out there as well. 
-    It's only 10 PM and I'm not sleeping anytime soon, I think I'll just head out, explore the mansion and see if I can talk to anybody.{/i}"
+    I think Klaus got his hands into the wine cellar and started drinking whatever liquid he could find. He's probably passed out there as well.{/i}"
+
+
+    me"{i}It's only 10 PM and I'm not sleeping anytime soon, I think I'll just head out, explore the mansion and see if I can talk to anybody.{/i}"
 
     scene bg hallway
     with fade
@@ -743,15 +713,15 @@ label play_pong:
         "After having my drink, I got on with my morning."
 
 
-label day2cherry:
+#label day2cherry
 
-    "HERE IS DAY 2 CHERRY ROUTE"
+ #   "HERE IS DAY 2 CHERRY ROUTE"
 
-    return
+  #  return
 
 
-label day2anna:
+#label day2anna
 
-    "HERE IS DAY 2 ANNA ROUTE"
+ #   "HERE IS DAY 2 ANNA ROUTE"
 
-    return
+  #  return
