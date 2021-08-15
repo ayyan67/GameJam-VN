@@ -2,7 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 704: indentation mismatch.
+File "game/cherryRoute.rpy", line 158: is not terminated with a newline. (Check strings and parenthesis.)
+(Perhaps you left out a " at the end of the first line.)
+        "The Head Chef walks in calmly, his usually tense face replaced with that of someone much softer.” 
 
 Ren'Py Version: Ren'Py 7.4.8.1895
-Sat Aug 14 18:06:00 2021
+Sat Aug 14 20:01:25 2021
