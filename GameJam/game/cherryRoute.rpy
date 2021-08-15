@@ -329,9 +329,9 @@ label day2cherry:
 
     m "Was it premeditated?"
 
-    me "{i}A lamp is a pretty terrible murder weapon. 
-    If you really wanted to kill someone, you would grab a knife and stab them, strangle them or even just drown them in a pool. 
-    Using a lamp to stab someone, especially with how difficult it is to hold, it would make sense if it was used in the heat of the moment{/i}"
+    me "{i}A lamp is a pretty terrible murder weapon."
+    me "If you really wanted to kill someone, you would grab a knife and stab them, strangle them or even just drown them in a pool."
+    me "Using a lamp to stab someone, especially with how difficult it is to hold, it would make sense if it was used in the heat of the moment{/i}"
 
     me "I don't think it was premeditated."
 
@@ -354,8 +354,56 @@ label day2cherry:
 
     me "Hey are you guys alright in there?"
 
-    "Cherry opens the door."
+    "Cherry opens the door and lets me in."
+
+    scene bg room3
+    with fade
     
-    
+    show cherry scared
+    with moveinbottom
+
+    c "Annabelle is just in her bed right now resting. She’s been through a lot. I think she’s okay for now." 
+
+    me "It’s good she’s calmed down." 
+
+    c "So did you figure anything out?"
+
+    c "For one, I'm pretty sure someone used the lamp to kill Joffrey. 
+    Also, he died in the living room but his pants were muddy. There may have been a struggle as well." 
+
+    c "..."
+    c "I know he was an absolute ass this entire time but murder is just too much. No one can justify killing another human being."
+    c "..."
+    c "Are they...?"
+
+    me "If you’re talking about the Chef and the Maid, I doubt its them since they both have alibis." 
+
+    c "Are you sure we can trust them?" 
+
+    me "I don’t know about the Chef but the Maid was a great help during the investigation so I think I can trust her. "
+
+    c  "That’s good. I think you're one of the few people I can trust here." 
+
+    me "..."
+
+    c "This whole taking care of Annabelle is stressing me out. I’m starving."
+
+    me "Lunch is in an hour."
+
+    c "Yeah, but what if I get hungry after dinner again? I finished all the snacks you gave me!"
+
+    menu:
+        "Help Cherry find some food":
+
+            # Choice 1: Help Cherry find food.
+
+            jump day2cherrycherry
+
+        "Watch over Annabelle and tell Cherry to talk to the chef":
+
+            # Choice 2: Talk to Annabelle
+
+            jump day2cherryanna
+
 
 return
