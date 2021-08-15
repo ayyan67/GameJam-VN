@@ -15,7 +15,6 @@ label goodend:
 
     hide maid with moveoutbottom
 
-
     window hide
     stop music fadeout 5.0
     scene good end
