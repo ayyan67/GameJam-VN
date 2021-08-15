@@ -1,15 +1,22 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
+<<<<<<< HEAD
   File "game/annaRouteSurveillance.rpy", line 103, in script
     with vshake
   File "game/annaRouteSurveillance.rpy", line 103, in <module>
     with vshake
 NameError: name 'vshake' is not defined
+=======
+  File "game/script.rpy", line 81, in script
+    unknown "Hey you must be the fifth, I'm Klaus"
+IOError: Couldn't find file 'generalOST.mp3'.
+>>>>>>> aefd6b307f82626da48a241954bb4252b0a27470
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
+<<<<<<< HEAD
   File "game/annaRouteSurveillance.rpy", line 103, in script
     with vshake
   File "renpy/ast.py", line 1431, in execute
@@ -21,8 +28,45 @@ Full traceback:
   File "game/annaRouteSurveillance.rpy", line 103, in <module>
     with vshake
 NameError: name 'vshake' is not defined
+=======
+  File "game/script.rpy", line 81, in script
+    unknown "Hey you must be the fifth, I'm Klaus"
+  File "C:\Users\Leo\Downloads\renpy-7.4.8-sdk/renpy/ast.py", line 716, in execute
+    renpy.exports.say(who, what, *args, **kwargs)
+  File "C:\Users\Leo\Downloads\renpy-7.4.8-sdk/renpy/exports.py", line 1417, in say
+    who(what, *args, **kwargs)
+  File "C:\Users\Leo\Downloads\renpy-7.4.8-sdk/renpy/character.py", line 1223, in __call__
+    self.do_display(who, what, cb_args=self.cb_args, dtt=dtt, **display_args)
+  File "C:\Users\Leo\Downloads\renpy-7.4.8-sdk/renpy/character.py", line 875, in do_display
+    **display_args)
+  File "C:\Users\Leo\Downloads\renpy-7.4.8-sdk/renpy/character.py", line 621, in display_say
+    rv = renpy.ui.interact(mouse='say', type=type, roll_forward=roll_forward)
+  File "C:\Users\Leo\Downloads\renpy-7.4.8-sdk/renpy/ui.py", line 298, in interact
+    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+  File "C:\Users\Leo\Downloads\renpy-7.4.8-sdk/renpy/display/core.py", line 3276, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, **kwargs)
+  File "C:\Users\Leo\Downloads\renpy-7.4.8-sdk/renpy/display/core.py", line 3979, in interact_core
+    renpy.audio.audio.periodic()
+  File "C:\Users\Leo\Downloads\renpy-7.4.8-sdk/renpy/audio/audio.py", line 1138, in periodic
+    raise_(exc[0], exc[1], exc[2])
+  File "C:\Users\Leo\Downloads\renpy-7.4.8-sdk/renpy/audio/audio.py", line 1116, in periodic_thread_main
+    periodic_pass()
+  File "C:\Users\Leo\Downloads\renpy-7.4.8-sdk/renpy/audio/audio.py", line 1058, in periodic_pass
+    c.periodic()
+  File "C:\Users\Leo\Downloads\renpy-7.4.8-sdk/renpy/audio/audio.py", line 512, in periodic
+    topf = load(filename)
+  File "C:\Users\Leo\Downloads\renpy-7.4.8-sdk/renpy/audio/audio.py", line 69, in load
+    rv = renpy.loader.load(fn)
+  File "C:\Users\Leo\Downloads\renpy-7.4.8-sdk/renpy/loader.py", line 798, in load
+    raise IOError("Couldn't find file '%s'." % name)
+IOError: Couldn't find file 'generalOST.mp3'.
+>>>>>>> aefd6b307f82626da48a241954bb4252b0a27470
 
 Windows-10-10.0.19041
 Ren'Py 7.4.8.1895
 GameJam 1.0
+<<<<<<< HEAD
 Sun Aug 15 14:41:54 2021
+=======
+Sun Aug 15 12:54:51 2021
+>>>>>>> aefd6b307f82626da48a241954bb4252b0a27470

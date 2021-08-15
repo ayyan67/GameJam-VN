@@ -66,6 +66,7 @@ label cherryChoose:
 
             ch "What do you think you're doin-"
 
+            play sound "audio/gun.mp3"
             "You fire the gun."
 
             jump badend
@@ -77,7 +78,7 @@ label cherryChoose:
             k "N-n-nuhh.... I'mm innacen-"
 
             "You fire the gun. "
-
+            play sound "audio/gun.mp3"
             jump badend
         "Cherry":
             me "The murderer is Cherry! She was sick of Joffrey's rudeness and harassment so she had to get rid of him!" 
@@ -85,7 +86,7 @@ label cherryChoose:
             c "N-no! I swear I'm innoce-"
 
             "You fire the gun."
-
+            play sound "audio/gun.mp3"
             jump badend
 
         "Annabelle":
@@ -161,8 +162,8 @@ label cherryChoose:
 
             c "Annabelle why! I thought we became friends" 
 
-            a "Cherry, you were the first person I told about my family and our situation. So you should know full well how much I need the money." 
-            a "How much I care about my debt to my father. And how little I care about anyone that isn't my dad."
+            a "Cherry, you were the first person I told about my family and our situation. So you should know full well how much I need the money for my dad’s operation." 
+            a "If come out of this trip with no cash, my Dad will be euthanized."
 
             c "But-"
 
@@ -176,18 +177,43 @@ label cherryChoose:
             hide annabelle smile
             show annabelle
             with dissolve
-            a "I need the money. If I risked losing this $100,000, I'd be betraying my him. I'd rather die than betray him." 
-             
+            a "My Dad is on his last breath, and unless I make it there with the money for the operation, they’re going to euthanize him."
+            "Don't you understand? Me going home empty-handed would be the same as killing him" 
+            a "I love my dad. He’s the entire world to me. So if he dies. I’m better off dead as well"
+
             "Your eyes are filled with terror. You're shaking. But Annabelle's gaze does not waver." 
 
-            a "Shoot me."            
+            a "So shoot me. It's me or the rest of you."            
 
             me "Annabelle please..."
 
-            show annabelle smile:
-                yalign 0.1
-                ease 0.5 zoom 2
+            "{i}Why am I in this situation, I can't do this to her!{/i}"
 
-            "Before you can react, Annabelle rushes towards you and attempts to grab the pistol. You panic and squeeze the trigger."
+            show annabelle :
+                yalign 0.1
+                ease 0.1 zoom 2
+            pause 0.4
+            show annabelle:
+                ease 0.2 zoom 1
+           
+            "Before you can react, Annabelle rushes towards you and grabs the pistol, pointing it back towards you."
             
+            
+            
+
+            a "Don't you dare move." 
+
+            "Annabelle cracks open the revolver and glances at the chamber. She looks surprised for a moment before letting out a sign of resignation." 
+
+            a "Fate’s really cruel, huh." 
+
+            "Annabelle puts the gun to her head." 
+
+            hide annabelle
+            show annabelle smile
+
+            a "I’ll see you later dad."
+
+            me "{b}ANNABELLE STOP-{/b}" 
+            play sound "audio/gun.mp3"
             jump goodend

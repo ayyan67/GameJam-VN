@@ -13,8 +13,6 @@ define unknown = Character("???")
 
 define me = Character("[player_name]")
 
-#The defined character below will show the nvl window, which is a textbox overlaying the screen
-define fullscreen = Character(None, kind=nvl, what_text_align=0.5, what_xalign=0.5, what_minwidth=700)
 # The game starts here.
 
 label start:
@@ -22,6 +20,8 @@ label start:
     # grabs user PC name
     scene bg black
     
+    "The following content may contain elements that are not suitable for some audiences. Viewer discretion is advised."
+
 
     # get player n
     python:
@@ -44,21 +44,15 @@ label start:
     
     # PROLOGUE
 
-    "Friday 10 PM, you are browsing the internet on your phone when you get an email notification with an invitation."
-    fullscreen "Dear invited guests \n 
-    As we are celebrating the hundredth anniversary of our establishment, you are one of five candidates chosen to 
-    stay at the esteemed Umair mansion for 3 days and nights! As a part of this event, 
-    one person out of all the candidates will receive a cash prize of $100,000. 
-    You are free to decline however; know that this is an exceptionally rare opportunity. 
-    More detailed information will be provided at the event. If you have any further questions, 
-    please contact: XXX - XXXX - XXXX. 
-    We look forward to your presence at our mansion.”\n
-    Address: XXXX XXXXXX XXXXXX\n
-    \n
-    Sincerely, 
-    The Household of Umair
-    "
-
+    "It's 10 PM on a Friday night, you are browsing the internet on your phone when you get an email notification with an invitation."
+ 
+    window hide
+    show email
+    pause 10000
+    window show
+ 
+    hide email
+    with dissolve
     me "No shot this is real, it has to be a scam."
    
     "You look up on your laptop if there are scams similar to the email you just received, but there seems to be no relevant results"
@@ -70,7 +64,6 @@ label start:
 
     me "It's close enough to bus to, so I guess the worst case is a wasted trip."
     
-
     scene day1
     with fade
     pause 2
@@ -83,6 +76,7 @@ label start:
     Out of the four, a tall, muscular man waves you over to the group."
 
 
+    play music "audio/generalOST.mp3" 
     show klaus
     unknown "Hey you must be the fifth, I'm Klaus"
 
@@ -227,9 +221,12 @@ label start:
     me "{i}Despite the scene Joffrey made, it doesn't concern me. 
     I'm going to take my sweet time and enjoy my time in this mansion. {/i}"
 
+    
+
     # knock sound effect
+    play sound "audio/knock.mp3"
     scene bg black
-    with fade
+    with fade   
     "{i}As you begin to doze off, you hear a loud knock at your door. You open it and are greeted by an enthusiastic Klaus.{/i}"
     scene bg room2
     with fade
@@ -358,7 +355,7 @@ label start:
     There’s a huge pool table in the center of the room with a ping pong table next to it. The walls are lined with arcade cabinets and there
     are various brightly lit and flashing machines scattered in the room.{/i}"
 
-    k "{b}YO, THIS IS GREAT!{/b} I haven’t played pool in ages. Damn! They have this old arcade\ game too!"
+    k "{b}YO, THIS IS GREAT!{/b} I haven’t played pool in ages. Damn! They have this old arcade game too!"
 
 
 init python:
@@ -390,7 +387,7 @@ init python:
             self.computery = self.playery
 
             # The speed of the computer.
-            self.computerspeed = 600
+            self.computerspeed = 1000
 
             # The position, delta-position, and the speed of the
             # ball.
@@ -628,8 +625,8 @@ label play_pong:
     hide chef
     with moveoutright
 
-    "The head chef comes out balancing five plates like a performer and lays them out in front of you flawlessly. 
-    The aroma that filled the table was enchanting, leaving all our mouths salivating, Cherry especially. 
+    "The head chef comes out balancing five plates like a performer and lays them out in front of you flawlessly."
+    "The aroma that filled the table was enchanting, leaving all our mouths salivating, Cherry especially. 
     She begins wolfing down the steak while Joffrey pokes at his food"
 
     show joffrey

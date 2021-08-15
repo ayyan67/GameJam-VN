@@ -2,7 +2,17 @@
 errors listed below, and try again.
 
 
+<<<<<<< HEAD
 File "game/annaRouteSurveillance.rpy", line 110: indentation mismatch.
 
 Ren'Py Version: Ren'Py 7.4.8.1895
 Sun Aug 15 14:40:37 2021
+=======
+File "game/cherryRoute.rpy", line 113: expected end of line
+    stop sound "audio/alarm.mp3" fadeout 1.0
+               ^
+
+Ren'Py Version: Ren'Py 7.4.8.1895
+Sun Aug 15 13:07:00 2021
+Sun Aug 15 14:03:51 2021
+>>>>>>> aefd6b307f82626da48a241954bb4252b0a27470

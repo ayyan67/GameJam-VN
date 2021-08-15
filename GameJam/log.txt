@@ -1,8 +1,13 @@
+<<<<<<< HEAD
 Sun Aug 15 14:10:52 2021
+=======
+Sun Aug 15 13:20:37 2021
+>>>>>>> aefd6b307f82626da48a241954bb4252b0a27470
 Windows-10-10.0.19041
 Ren'Py 7.4.8.1895
  
 
+<<<<<<< HEAD
 Bootstrap to the start of init.init took 0.11s
 Early init took 0.00s
 Loader init took 0.02s
@@ -1021,16 +1026,36 @@ Analyze and compile ATL took 0.00s
 Index archives took 0.00s
 Backing up script files to 'C:\\Users\\Ayyan\\AppData\\Roaming/RenPy/backups\\GameJam':
 Dump and make backups. took 0.07s
+=======
+Bootstrap to the start of init.init took 0.10s
+Early init took 0.00s
+Loader init took 0.03s
+Loading error handling took 0.03s
+Loading script took 0.26s
+Loading save slot metadata. took 0.04s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.07s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Dump and make backups. took 0.09s
+>>>>>>> aefd6b307f82626da48a241954bb4252b0a27470
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
 Initial gc. took 0.03s
 DPI scale factor: 1.000000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: Disabled thread optimizations.
+<<<<<<< HEAD
 Creating interface object took 0.35s
+=======
+Creating interface object took 0.22s
+>>>>>>> aefd6b307f82626da48a241954bb4252b0a27470
 Cleaning stores took 0.00s
 Init translation took 0.04s
 Build styles took 0.00s
+<<<<<<< HEAD
 Load screen analysis took 0.00s
 Analyze screens took 0.01s
 Save screen analysis took 0.07s
@@ -1355,3 +1380,11 @@ Version: '4.6.0 NVIDIA 471.11'
 Display Info: None
 Screen sizes: virtual=(1280, 720) physical=(1707, 960) drawable=(1707, 960)
 Maximum texture size: 4096x4096
+=======
+Load screen analysis took 0.03s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.05s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+>>>>>>> aefd6b307f82626da48a241954bb4252b0a27470

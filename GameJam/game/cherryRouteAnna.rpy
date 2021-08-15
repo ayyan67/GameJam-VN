@@ -1,5 +1,15 @@
 label day2cherryanna:
-    c "Ah... Ok, I'll try talking to Chef... I'll catch you later!" 
+    me "Chef said that he stays in the kitchen overnight, preparing ingredients for the following day. We can see if he has anything for us." 
+
+    c "I'd ask him but he's kinda hard to approach because he's scary." 
+
+    me "Don't worry, he's a nice guy on the inside."
+
+    c "Ah... Ok, I'll guess I'll try..." 
+
+    show cherry
+
+    c "I'll catch you later!"
 
     me "Yeah, I'll try to get Annabelle to eat lunch too." 
 
@@ -10,6 +20,9 @@ label day2cherryanna:
 
     me "Hey Annabelle? It's me [me], I'm coming in." 
 
+    scene bg room3
+    with fade
+    
     "You enter the room and close the door behind you. Her light is still on, but she remains under her sheets." 
 
     me "Cherry's hungry, so she's going to talk to the Chef. How are you feeling?" 
@@ -26,7 +39,7 @@ label day2cherryanna:
 
     me "Have you eaten anything yet?" 
 
-    a  "no"
+    a  "No."
 
     me "Are you not hungry? I'll tell Cherry to get some food for you as well-" 
 
@@ -37,6 +50,8 @@ label day2cherryanna:
     "Neither you nor Annabelle say anything." 
 
     "{i}Crap. It's awkward now. Was I coming on too strong? I have no idea how to follow that. Should I leave? Maybe I'll call Cherry back or something. {/i}" 
+
+    play music "audio/seriousOST.mp3"
 
     a "Are... we... tra...?" 
 
@@ -125,6 +140,8 @@ label day2cherryanna:
 
     scene bg hallway
     with fade
+
+    stop music fadeout 1.0
 
     "You got up and walked out of Annabelle's room feeling defeated."
 
