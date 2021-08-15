@@ -12,13 +12,13 @@ label routePantry:
 
  "Your breath is labored, and your heart is beating against your ears. " 
 
- "Your adrenaline rocks you slowly back and forth, until a cold slimy sensation slides over your neck. "
+ "Your adrenaline rocks you slowly back and forth, until a cold slimy sensation slides over your neck."
 
- "You carefully look up behind you to see the face of a bone dry corpse hanging from meat hooks. " 
+ "You carefully look up behind you to see the face of a bone dry corpse hanging from meat hooks." 
 
- "Your gaze falls onto the empty void of where eyes would be. "
+ "Your gaze falls onto the empty void of where eyes would be."
 
- "You stifle a scream, as tears well up in your eyes. The body is beyond recognition "
+ "You stifle a scream, as tears well up in your eyes. The body is beyond recognition"
 
  "{i}I don’t want to die… Please, God, I don’t want to die just yet. Please let me live. Please let me live.{/i}"
 

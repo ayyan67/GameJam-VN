@@ -55,7 +55,7 @@ label annaRouteSurveillance:
 
  a  "Please, I don’t want to die! Not y-"
 
- "Klaus charges into her, splashing the window and walls with her innards " 
+ "Klaus charges into her, splashing the window and walls with her innards" 
 
  "The sunlight that once shone into the hallway is now tinted crimson red." 
 
