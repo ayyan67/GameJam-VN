@@ -1,13 +1,34 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
+<<<<<<< HEAD
+  File "game/annaRouteSurveillance.rpy", line 103, in script
+    with vshake
+  File "game/annaRouteSurveillance.rpy", line 103, in <module>
+    with vshake
+NameError: name 'vshake' is not defined
+=======
   File "game/script.rpy", line 81, in script
     unknown "Hey you must be the fifth, I'm Klaus"
 IOError: Couldn't find file 'generalOST.mp3'.
+>>>>>>> aefd6b307f82626da48a241954bb4252b0a27470
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
+<<<<<<< HEAD
+  File "game/annaRouteSurveillance.rpy", line 103, in script
+    with vshake
+  File "renpy/ast.py", line 1431, in execute
+    trans = renpy.python.py_eval(self.expr)
+  File "renpy/python.py", line 2266, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+  File "renpy/python.py", line 2259, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/annaRouteSurveillance.rpy", line 103, in <module>
+    with vshake
+NameError: name 'vshake' is not defined
+=======
   File "game/script.rpy", line 81, in script
     unknown "Hey you must be the fifth, I'm Klaus"
   File "C:\Users\Leo\Downloads\renpy-7.4.8-sdk/renpy/ast.py", line 716, in execute
@@ -39,8 +60,13 @@ Full traceback:
   File "C:\Users\Leo\Downloads\renpy-7.4.8-sdk/renpy/loader.py", line 798, in load
     raise IOError("Couldn't find file '%s'." % name)
 IOError: Couldn't find file 'generalOST.mp3'.
+>>>>>>> aefd6b307f82626da48a241954bb4252b0a27470
 
 Windows-10-10.0.19041
 Ren'Py 7.4.8.1895
 GameJam 1.0
+<<<<<<< HEAD
+Sun Aug 15 14:41:54 2021
+=======
 Sun Aug 15 12:54:51 2021
+>>>>>>> aefd6b307f82626da48a241954bb4252b0a27470
