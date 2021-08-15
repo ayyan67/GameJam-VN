@@ -2,9 +2,16 @@
 errors listed below, and try again.
 
 
+<<<<<<< HEAD
 File "game/annaRouteCherry.rpy", line 102: Line is indented, but the preceding with statement statement does not expect a block. Please check this line's indentation.
     k "GRRRRRAAAAHHHHHH!!!"
     ^
 
 Ren'Py Version: Ren'Py 7.4.8.1895
 Sun Aug 15 12:36:33 2021
+=======
+File "game/screens.rpy", line 393: indentation mismatch.
+
+Ren'Py Version: Ren'Py 7.4.8.1895
+Sun Aug 15 00:54:26 2021
+>>>>>>> 76a88fc28fd02dafea861b89901f4ce56e6a9420

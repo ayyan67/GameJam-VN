@@ -302,7 +302,7 @@ label start:
     would be more willing to join your business, but sometimes it's just not for everyone. 
     Annabelle's gotta have some stuff she wants to do after school too right?"
 
-    a "I think want to be a nurse."
+    a "I think I want to be a nurse."
 
     hide cherry mad
     show cherry at right

@@ -134,7 +134,7 @@ label day2cherry:
 
     "You begin to grab your belongings and pack your bags ,but the maid stops you in your tracks."
 
-    m "I'm afriad you cannot just leave in this situation." 
+    m "I'm afraid you cannot just leave in this situation." 
 
     m "We have informed my master adn the authorities regarding the murder that has occurred on his estate. 
     Therefore we has initiated a security lockdown to prevent any murder suspects from leaving the scene."
@@ -144,9 +144,10 @@ label day2cherry:
     m "I'm afraid I cannot allow that to happen at the moment. The neccessary procedures are put in place for a situation like this
     so that no one, including the staff, can leave the property, no matter the reason."
 
-    "Before you can retort, a piecing shriek from downstairs interupps your train of thought."
+    "Before you can retort, a piecing shriek from downstairs interupts your train of thought."
 
     m "Annabelle?!"
+    
     window hide
     scene bg hallway
     with fade
@@ -170,7 +171,7 @@ label day2cherry:
 
     me "{i}Ugh...{/i}"
 
-    "You recall the acidity of last night's dinner in your throat but you suppress the urge to vomit."
+    "You recall the taste of last night's dinner in your throat as you suppress the urge to vomit."
 
     scene bg livingroom
     with fade
@@ -300,9 +301,8 @@ label day2cherry:
 
     me "{i}How is she so emotionless doing that?{/i}"
 
-    m "The tips of his hair are dyed in his blood but it is mostly dry. 
-    What does is a gash on the top left part of his head. 
-    It seems that the wound is still open which would explain why the blood around that area is still liquid. "
+    m "The tips of his hair are stained in his own blood, the source being a large gash on the top of his head. 
+    It seems that the wound is still open which would explain why the blood around that area is still liquid."
 
     "You catch a glimpse of some reflections in his head as the light hits his disheveled hair."
 
@@ -331,7 +331,7 @@ label day2cherry:
 
     me "{i}A lamp is a pretty terrible murder weapon.{/i}"
     me "{i}If you really wanted to kill someone, you would grab a knife and stab them, strangle them or even just drown them in a pool.{/i}"
-    me "{i}Using a lamp to stab someone, especially with how difficult it is to hold, it would make sense if it was used in the heat of the moment{/i}"
+    me "{i}Using a lamp to stab someone, especially with how difficult it is to hold, it would make sense if it was used in the heat of the moment.{/i}"
 
     me "I don't think it was premeditated."
 

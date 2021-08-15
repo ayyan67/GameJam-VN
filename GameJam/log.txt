@@ -1,12 +1,21 @@
+<<<<<<< HEAD
 Sun Aug 15 12:20:22 2021
+=======
+Sun Aug 15 01:22:44 2021
+>>>>>>> 76a88fc28fd02dafea861b89901f4ce56e6a9420
 Windows-10-10.0.19041
 Ren'Py 7.4.8.1895
  
 
+<<<<<<< HEAD
 Bootstrap to the start of init.init took 0.08s
+=======
+Bootstrap to the start of init.init took 0.07s
+>>>>>>> 76a88fc28fd02dafea861b89901f4ce56e6a9420
 Early init took 0.00s
-Loader init took 0.01s
+Loader init took 0.02s
 Loading error handling took 0.03s
+<<<<<<< HEAD
 Loading script took 0.27s
 Loading save slot metadata. took 0.04s
 Loading persistent took 0.00s
@@ -1663,13 +1672,25 @@ Loading analysis data took 0.02s
 Analyze and compile ATL took 0.00s
 Index archives took 0.00s
 Backing up script files to 'C:\\Users\\Ayyan\\AppData\\Roaming/RenPy/backups\\GameJam':
+=======
+Loading script took 0.34s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.07s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Leo\\AppData\\Roaming/RenPy/backups\\GameJam':
+>>>>>>> 76a88fc28fd02dafea861b89901f4ce56e6a9420
 Dump and make backups. took 0.10s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
-Initial gc. took 0.04s
+Initial gc. took 0.02s
 DPI scale factor: 1.000000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: Disabled thread optimizations.
+<<<<<<< HEAD
 Creating interface object took 0.37s
 Cleaning stores took 0.00s
 Init translation took 0.03s
@@ -2021,3 +2042,15 @@ Version: '4.6.0 NVIDIA 471.11'
 Display Info: None
 Screen sizes: virtual=(1280, 720) physical=(1707, 960) drawable=(1707, 960)
 Maximum texture size: 4096x4096
+=======
+Creating interface object took 0.22s
+Cleaning stores took 0.00s
+Init translation took 0.03s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.06s
+Prepare screens took 0.05s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.03s
+>>>>>>> 76a88fc28fd02dafea861b89901f4ce56e6a9420
