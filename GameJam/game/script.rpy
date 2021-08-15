@@ -8,10 +8,10 @@ define j = Character("Joffrey", who_color = "#747acc")
 define c = Character("Cherry", who_color = "#e6bb5e")
 define a = Character("Annabelle", who_color = "#ca6e7d")
 define ch = Character("Chef", who_color = "#885d53")
-define m = Character("Maid", who_color = "#2b2b2b")
+define m = Character("Maid", who_color = "#b5b5b5")
 define unknown = Character("???")
 
-define me = Character("[player_name]")
+define me = Character("[player_name]", who_color = "ffffff")
 
 # The game starts here.
 
@@ -21,7 +21,6 @@ label start:
     scene bg black
     
     "The following content may contain elements that are not suitable for some audiences. Viewer discretion is advised."
-
 
     # get player n
     python:
