@@ -929,3 +929,86 @@ Version: '4.6.0 NVIDIA 471.41'
 Display Info: None
 Screen sizes: virtual=(1280, 720) physical=(981, 552) drawable=(981, 552)
 Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 1810.51s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.06s
+Loading script took 0.88s
+Loading save slot metadata. took 0.16s
+Loading persistent took 0.00s
+
+File "game/annaRoute.rpy", line 17: expected statement.
+    <<<<<<< HEAD
+                ^
+
+File "game/annaRoute.rpy", line 23: expected statement.
+    =======
+          ^
+
+File "game/annaRoute.rpy", line 27: expected statement.
+    >>>>>>> 76a88fc28fd02dafea861b89901f4ce56e6a9420
+                                                    ^
+
+File "game/annaRoute.rpy", line 90: expected statement.
+    <<<<<<< HEAD
+                ^
+
+File "game/annaRoute.rpy", line 98: expected statement.
+    =======
+          ^
+
+File "game/annaRoute.rpy", line 107: expected statement.
+    >>>>>>> 76a88fc28fd02dafea861b89901f4ce56e6a9420
+                                                    ^
+
+File "game/annaRoute.rpy", line 111: expected statement.
+    <<<<<<< HEAD
+                ^
+
+File "game/annaRoute.rpy", line 113: expected statement.
+    =======
+          ^
+
+File "game/annaRoute.rpy", line 115: expected statement.
+    >>>>>>> 76a88fc28fd02dafea861b89901f4ce56e6a9420
+                                                    ^
+
+File "game/annaRoute.rpy", line 130: expected statement.
+    <<<<<<< HEAD
+                ^
+
+File "game/annaRoute.rpy", line 134: expected statement.
+    =======
+          ^
+
+File "game/annaRoute.rpy", line 138: expected statement.
+    >>>>>>> 76a88fc28fd02dafea861b89901f4ce56e6a9420
+                                                    ^
+
+File "game/annaRoute.rpy", line 143: expected statement.
+    <<<<<<< HEAD
+                ^
+
+File "game/annaRoute.rpy", line 145: expected statement.
+    =======
+          ^
+
+File "game/annaRoute.rpy", line 147: expected statement.
+    >>>>>>> 76a88fc28fd02dafea861b89901f4ce56e6a9420
+                                                    ^
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 0.28s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'NVIDIA GeForce GTX 1060 3GB/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 471.41'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(981, 552) drawable=(981, 552)
+Maximum texture size: 4096x4096

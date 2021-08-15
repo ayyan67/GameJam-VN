@@ -1,5 +1,6 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
+<<<<<<< HEAD
 After initialization, but before game start.
   File "game/script.rpy", line 49, in prepare_screen
     screen text_example():
@@ -12,10 +13,19 @@ After initialization, but before game start.
   File "game/script.rpy", line 52, in prepare
     text "Dear invited guests
 SyntaxError: EOL while scanning string literal (script.rpy, line 52)
+=======
+While running game code:
+  File "game/annaRouteCherry.rpy", line 89, in script
+    with moveoutdown
+  File "game/annaRouteCherry.rpy", line 89, in <module>
+    with moveoutdown
+NameError: name 'moveoutdown' is not defined
+>>>>>>> b41982e492fc7d091d0c725063da695e4f82f988
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
+<<<<<<< HEAD
   File "C:\Users\Leo\Downloads\renpy-7.4.8-sdk/renpy/bootstrap.py", line 326, in bootstrap
     renpy.main.main()
   File "C:\Users\Leo\Downloads\renpy-7.4.8-sdk/renpy/main.py", line 617, in main
@@ -41,8 +51,25 @@ Full traceback:
   File "C:\Users\Leo\Downloads\renpy-7.4.8-sdk/renpy/python.py", line 835, in py_compile
     raise e
 SyntaxError: EOL while scanning string literal (script.rpy, line 52)
+=======
+  File "game/annaRouteCherry.rpy", line 89, in script
+    with moveoutdown
+  File "renpy/ast.py", line 1431, in execute
+    trans = renpy.python.py_eval(self.expr)
+  File "renpy/python.py", line 2266, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+  File "renpy/python.py", line 2259, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/annaRouteCherry.rpy", line 89, in <module>
+    with moveoutdown
+NameError: name 'moveoutdown' is not defined
+>>>>>>> b41982e492fc7d091d0c725063da695e4f82f988
 
 Windows-10-10.0.19041
 Ren'Py 7.4.8.1895
 GameJam 1.0
+<<<<<<< HEAD
 Sun Aug 15 11:49:25 2021
+=======
+Sun Aug 15 12:38:10 2021
+>>>>>>> b41982e492fc7d091d0c725063da695e4f82f988
