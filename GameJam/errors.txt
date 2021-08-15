@@ -2,9 +2,18 @@
 errors listed below, and try again.
 
 
+<<<<<<< HEAD
 File "game/annaRoute.rpy", line 34: is not terminated with a newline. (Check strings and parenthesis.)
 (Perhaps you left out a " at the end of the first line.)
     "{i}I barely heard her...{/i}""
 
 Ren'Py Version: Ren'Py 7.4.8.1895
 Sat Aug 14 19:09:04 2021
+=======
+File "game/goodEnd.rpy", line 5: expected statement.
+    pasue 5
+           ^
+
+Ren'Py Version: Ren'Py 7.4.8.1895
+Sat Aug 14 22:58:18 2021
+>>>>>>> ae5dd5f8feb940a72c85e7c2c38260d53eeb891b
