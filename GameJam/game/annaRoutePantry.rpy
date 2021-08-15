@@ -25,6 +25,14 @@ label routePantry:
  "You repeat this to yourself. Again. And again. And again. Clutching your own body as you curl up into a ball, keeping your eyes painfully shut. " 
 
  #Transition: 1 month passes by
+ scene bg black
+ with fade
+
+ "2 weeks later"
+ 
+ 
+ scene bg kitchen 
+ with fade
 
  "{i}I’ve been trapped in this eternal darkness for so long that time has lost meaning. God knows how long it's been since food ran out.{/i}"
 
@@ -33,6 +41,9 @@ label routePantry:
  "Soft footsteps begin approaching the door of the pantry. There’s a metallic click from the handle of the door, slowly creaking open as blinding light shines down on my starved body. My sunken eyes water as a shadowed figure looms over me. "
 
  "{i}My time has finally come.{/i}"
+
+ show maid
+ with dis
 
  m  "Oh my, this is new. "
 

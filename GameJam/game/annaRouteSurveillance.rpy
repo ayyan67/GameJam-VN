@@ -36,8 +36,15 @@ label annaRouteSurveillance:
  m  "Enjoying the show?" 
 
  "Startled, you turn your back to the monitors to face the voice. Your hands waver over the desk for support. You feel something cold and hard brush past your palm. You glance over to your right hand and find a revolver" 
+ 
+ hide maid
+ show revolver at top
+ 
 
  "You immediately draw the revolver and point it at the maid"
+
+ hide revolver
+ show maid
 
  m  "You’ve never shot a gun before, have you. Unless-" 
 
@@ -190,19 +197,18 @@ label annaRouteSurveillance:
 
         "{i}Did I ever… live my life?{/i}"
 
-        "{i}Did my parents ever love me?{/i}"
+        "{i}Were my experiences all a simulation? Did I ever make a decision of my own?{/i}" 
 
-        "{i}Was their affection just calculated? Did I ever actually make a decision of my own?{/i}"  
+        "You begin sweating. Your eyes fill with terror at the realization of how shallow everything had been." 
 
-        "You start sweating. Your eyes filled with terror at the realization of how shallow everything is." 
+        m "Ah, it appears I got my hopes up." 
 
-        m "Ah, I guess I got my hopes up." 
+        "{i}I- I can’t take this anymore…{/i}"
 
-        "{i}I- I can’t do this anymore…{/i}"
+        "You put the gun to your head."
 
-        "You put the gun to your head." 
+        m "I hope your performance improves in the nex-"
 
-        m "I hope your performance improves in the next trial"
 
         "BANG"
         with vpunch

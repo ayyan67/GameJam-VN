@@ -96,7 +96,7 @@ label annaRouteCherry:
  
  me"Klaus… is that you?"
 
- show klaus angry
+ show klaus insane
  with dis
 
  "Clouds of steam escape from his nostrils. Your eyes make contact. His mouth slowly forms an unnatural grin, inhuman almost."
@@ -121,7 +121,7 @@ label annaRouteCherry:
          
          "You hide in the basement for what seems like an eternity"
          
-         show klaus
+         show klaus insane
          with moveinbottom
 
          "Klaus eventually finds you"
@@ -140,7 +140,7 @@ label annaRouteCherry:
          
          "Klaus catches up to you right outside your door." 
          
-         show klaus
+         show klaus insane
          with moveinleft
 
          with vpunch
@@ -175,7 +175,7 @@ label annaRouteCherry:
 
         
 
-         show klaus
+         show klaus insane
          with moveinright
 
          with vpunch
