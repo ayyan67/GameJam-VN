@@ -2,65 +2,17 @@
 errors listed below, and try again.
 
 
-File "game/annaRoute.rpy", line 17: expected statement.
-    <<<<<<< HEAD
-                ^
-
-File "game/annaRoute.rpy", line 23: expected statement.
-    =======
-          ^
-
-File "game/annaRoute.rpy", line 27: expected statement.
-    >>>>>>> 76a88fc28fd02dafea861b89901f4ce56e6a9420
-                                                    ^
-
-File "game/annaRoute.rpy", line 90: expected statement.
-    <<<<<<< HEAD
-                ^
-
-File "game/annaRoute.rpy", line 98: expected statement.
-    =======
-          ^
-
-File "game/annaRoute.rpy", line 107: expected statement.
-    >>>>>>> 76a88fc28fd02dafea861b89901f4ce56e6a9420
-                                                    ^
-
-File "game/annaRoute.rpy", line 111: expected statement.
-    <<<<<<< HEAD
-                ^
-
-File "game/annaRoute.rpy", line 113: expected statement.
-    =======
-          ^
-
-File "game/annaRoute.rpy", line 115: expected statement.
-    >>>>>>> 76a88fc28fd02dafea861b89901f4ce56e6a9420
-                                                    ^
-
-File "game/annaRoute.rpy", line 130: expected statement.
-    <<<<<<< HEAD
-                ^
-
-File "game/annaRoute.rpy", line 134: expected statement.
-    =======
-          ^
-
-File "game/annaRoute.rpy", line 138: expected statement.
-    >>>>>>> 76a88fc28fd02dafea861b89901f4ce56e6a9420
-                                                    ^
-
-File "game/annaRoute.rpy", line 143: expected statement.
-    <<<<<<< HEAD
-                ^
-
-File "game/annaRoute.rpy", line 145: expected statement.
-    =======
-          ^
-
-File "game/annaRoute.rpy", line 147: expected statement.
-    >>>>>>> 76a88fc28fd02dafea861b89901f4ce56e6a9420
-                                                    ^
+<<<<<<< HEAD
+File "game/annaRouteSurveillance.rpy", line 110: indentation mismatch.
 
 Ren'Py Version: Ren'Py 7.4.8.1895
+Sun Aug 15 14:40:37 2021
+=======
+File "game/cherryRoute.rpy", line 113: expected end of line
+    stop sound "audio/alarm.mp3" fadeout 1.0
+               ^
+
+Ren'Py Version: Ren'Py 7.4.8.1895
+Sun Aug 15 13:07:00 2021
 Sun Aug 15 14:03:51 2021
+>>>>>>> aefd6b307f82626da48a241954bb4252b0a27470

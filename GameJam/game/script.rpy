@@ -76,6 +76,7 @@ label start:
     Out of the four, a tall, muscular man waves you over to the group."
 
 
+    play music "audio/generalOST.mp3" 
     show klaus
     unknown "Hey you must be the fifth, I'm Klaus"
 
@@ -220,9 +221,12 @@ label start:
     me "{i}Despite the scene Joffrey made, it doesn't concern me. 
     I'm going to take my sweet time and enjoy my time in this mansion. {/i}"
 
+    
+
     # knock sound effect
+    play sound "audio/knock.mp3"
     scene bg black
-    with fade
+    with fade   
     "{i}As you begin to doze off, you hear a loud knock at your door. You open it and are greeted by an enthusiastic Klaus.{/i}"
     scene bg room2
     with fade
@@ -621,8 +625,8 @@ label play_pong:
     hide chef
     with moveoutright
 
-    "The head chef comes out balancing five plates like a performer and lays them out in front of you flawlessly. 
-    The aroma that filled the table was enchanting, leaving all our mouths salivating, Cherry especially. 
+    "The head chef comes out balancing five plates like a performer and lays them out in front of you flawlessly."
+    "The aroma that filled the table was enchanting, leaving all our mouths salivating, Cherry especially. 
     She begins wolfing down the steak while Joffrey pokes at his food"
 
     show joffrey

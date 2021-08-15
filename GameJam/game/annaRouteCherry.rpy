@@ -4,6 +4,9 @@ label annaRouteCherry:
 
  "{i}Cherry seems to be acting awfully suspicious. I should definetly ask her some questions?{/i}"
 
+ me"{i}She was heading to the kitchen if I recall correctly{/i}"
+ 
+
  scene bg hallway
  with fade
  scene bg kitchen
@@ -21,7 +24,7 @@ label annaRouteCherry:
 
  c "I saw something in the pantry and then chef was yelling and threatening me with his knife. I didn’t mean to kill him"
 
- me"calm down, what do you mean by you didn’t mean to kill?"
+ me"Calm down, what do you mean by you didn’t mean to kill?"
 
  c "It’s an accident I swear I killed chef while acting in self-defence. There was a dead body in the pantry so chef must be a killer."
 
@@ -103,5 +106,99 @@ label annaRouteCherry:
  k "GRRRRRAAAAHHHHHH!!!"
 
  "You make a run for it"
+
+ scene bg hallway
+ with fade
+
+ "{i}Klaus is right behind me what do I do?!?{/i}"
+ 
+ menu: 
+     "Go into the basement":
+
+         scene bg basement
+         with fade
+
+         
+         "You hide in the basement for what seems like an eternity"
+         
+         show klaus
+         with moveinbottom
+
+         "Klaus eventually finds you"
+
+         with vpunch
+         "You are torn limb from limb"
+         with vpunch
+
+         scene bad end
+         pause 2
+
+     "Hide in your room":
+         scene bg door
+         with fade
+
+         
+         "Klaus catches up to you right outside your door." 
+         
+         show klaus
+         with moveinleft
+
+         with vpunch
+         "He grabs you by your head and pulls your spine out from your body"
+         with vpunch
+
+         scene bad end
+         pause 2
+
+     "Go into the kitchen":
+         jump routePantry
+
+     "Go into the Games Room":
+
+         scene bg arcade
+         with fade
+
+         "You manage to outmaneuver Klaus and escape to the Games Room"
+         "You can hear Klaus charging towards you. You look for an escape route and notice a gap in one of the shelves, revealing a door"
+
+         "{i} Surveillance Room {/i}"
+
+         me"This may be my only chance at living, I've gotta get in here"
+
+         if hasKey:
+
+             me"This is the only key I have"
+             "You cross your fingers and insert the key into the door"
+             jump annaRouteSurveillance
+            
+         "Despite your desperate attempts to force it open, the door doesn't budge"
+
+        
+
+         show klaus
+         with moveinright
+
+         with vpunch
+         "Klaus catches up to you and crushes your skull between his thunder thighs"
+         with vpunch
+
+         scene bad end
+         pause 2
+
+        
+     
+
+
+         
+        
+        
+
+
+
+        
+
+ 
+
+
 
 

@@ -66,6 +66,7 @@ label cherryChoose:
 
             ch "What do you think you're doin-"
 
+            play sound "audio/gun.mp3"
             "You fire the gun."
 
             jump badend
@@ -77,7 +78,7 @@ label cherryChoose:
             k "N-n-nuhh.... I'mm innacen-"
 
             "You fire the gun. "
-
+            play sound "audio/gun.mp3"
             jump badend
         "Cherry":
             me "The murderer is Cherry! She was sick of Joffrey's rudeness and harassment so she had to get rid of him!" 
@@ -85,7 +86,7 @@ label cherryChoose:
             c "N-no! I swear I'm innoce-"
 
             "You fire the gun."
-
+            play sound "audio/gun.mp3"
             jump badend
 
         "Annabelle":
@@ -214,5 +215,5 @@ label cherryChoose:
             a "I’ll see you later dad."
 
             me "{b}ANNABELLE STOP-{/b}" 
-
+            play sound "audio/gun.mp3"
             jump goodend
