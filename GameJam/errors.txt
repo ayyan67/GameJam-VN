@@ -63,4 +63,4 @@ File "game/annaRoute.rpy", line 147: expected statement.
                                                     ^
 
 Ren'Py Version: Ren'Py 7.4.8.1895
-Sun Aug 15 12:19:56 2021
+Sun Aug 15 14:03:51 2021
