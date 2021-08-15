@@ -2,22 +2,9 @@
 errors listed below, and try again.
 
 
-<<<<<<< Updated upstream
-File "game/script.rpy", line 743: expected ':' not found.
-    label day2cherry
-                    ^
-
-File "game/script.rpy", line 750: expected ':' not found.
-    label day2anna
-                  ^
+File "game/annaRoute.rpy", line 34: is not terminated with a newline. (Check strings and parenthesis.)
+(Perhaps you left out a " at the end of the first line.)
+    "{i}I barely heard her...{/i}""
 
 Ren'Py Version: Ren'Py 7.4.8.1895
-Sat Aug 14 17:50:25 2021
-=======
-File "game/script.rpy", line 365: expected statement.
-    class PongDisplayable(renpy.Displayable):
-                         ^
-
-Ren'Py Version: Ren'Py 7.4.8.1895
-Sat Aug 14 18:50:21 2021
->>>>>>> Stashed changes
+Sat Aug 14 19:09:04 2021

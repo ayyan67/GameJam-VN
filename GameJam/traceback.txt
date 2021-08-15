@@ -1,36 +1,30 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "renpy/common/00keymap.rpy", line 469, in script
-    python hide:
-  File "renpy/common/00keymap.rpy", line 469, in <module>
-    python hide:
-  File "renpy/common/00keymap.rpy", line 488, in _execute_python_hide
-    renpy.save("_reload-1", "reload save game")
-AttributeError: 'NoneType' object has no attribute 'stores'
+  File "game/annaRoute.rpy", line 70, in script
+    show annabelle sad
+Exception: Image 'annabelle' does not accept attributes 'sad'.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "renpy/common/00keymap.rpy", line 469, in script
-    python hide:
-  File "C:\Users\Leo\Downloads\renpy-7.4.8-sdk/renpy/ast.py", line 923, in execute
-    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
-  File "C:\Users\Leo\Downloads\renpy-7.4.8-sdk/renpy/python.py", line 2235, in py_exec_bytecode
-    exec(bytecode, globals, locals)
-  File "renpy/common/00keymap.rpy", line 469, in <module>
-    python hide:
-  File "renpy/common/00keymap.rpy", line 488, in _execute_python_hide
-    renpy.save("_reload-1", "reload save game")
-  File "C:\Users\Leo\Downloads\renpy-7.4.8-sdk/renpy/loadsave.py", line 394, in save
-    roots = renpy.game.log.freeze(None)
-  File "C:\Users\Leo\Downloads\renpy-7.4.8-sdk/renpy/python.py", line 2132, in freeze
-    self.complete(False)
-  File "C:\Users\Leo\Downloads\renpy-7.4.8-sdk/renpy/python.py", line 1726, in complete
-    self.current.stores[name], self.current.delta_ebc[name] = sd.get_changes(begin)
-AttributeError: 'NoneType' object has no attribute 'stores'
+  File "game/annaRoute.rpy", line 70, in script
+    show annabelle sad
+  File "renpy/ast.py", line 1192, in execute
+    show_imspec(self.imspec, atl=getattr(self, "atl", None))
+  File "renpy/ast.py", line 1162, in show_imspec
+    atl=atl)
+  File "renpy/exports.py", line 744, in show
+    if not base.find_target() and renpy.config.missing_show:
+  File "renpy/display/image.py", line 409, in find_target
+    self.target = target._duplicate(a)
+  File "renpy/display/core.py", line 390, in _duplicate
+    args.extraneous()
+  File "renpy/display/core.py", line 271, in extraneous
+    " ".join(self.args),
+Exception: Image 'annabelle' does not accept attributes 'sad'.
 
 Windows-10-10.0.19041
 Ren'Py 7.4.8.1895
 GameJam 1.0
-Sat Aug 14 14:08:22 2021
+Sat Aug 14 19:15:04 2021
