@@ -2,9 +2,13 @@
 errors listed below, and try again.
 
 
-File "game/cherryRouteCherry.rpy", line 38: expected statement.
-    "You and Cherry" Yes, Chef!
-                        ^
+File "game/cherryRouteAnna.rpy", line 76: end of line expected.
+    a "yes". 
+           ^
+
+File "game/cherryRouteAnna.rpy", line 102: expected statement.
+    me … 
+         ^
 
 Ren'Py Version: Ren'Py 7.4.8.1895
-Sat Aug 14 21:28:53 2021
+Sat Aug 14 21:59:49 2021

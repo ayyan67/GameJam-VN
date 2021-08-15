@@ -329,14 +329,18 @@ label day2cherry:
 
     m "Was it premeditated?"
 
-    me "{i}A lamp is a pretty terrible murder weapon."
-    me "If you really wanted to kill someone, you would grab a knife and stab them, strangle them or even just drown them in a pool."
-    me "Using a lamp to stab someone, especially with how difficult it is to hold, it would make sense if it was used in the heat of the moment{/i}"
+    me "{i}A lamp is a pretty terrible murder weapon.{/i}"
+    me "{i}If you really wanted to kill someone, you would grab a knife and stab them, strangle them or even just drown them in a pool.{/i}"
+    me "{i}Using a lamp to stab someone, especially with how difficult it is to hold, it would make sense if it was used in the heat of the moment{/i}"
 
     me "I don't think it was premeditated."
 
     m "..."
     me "..."
+
+    scene bg livingroom
+    show maid
+
     me "I think I've seen enough here. Are you sure you're okay with all this?"
     m "Please do not worry about me, it is all part of the job."
     
@@ -346,15 +350,15 @@ label day2cherry:
     with fade
 
     "As you leave the room, you turn to glance at the maid, and the same emotionless expression remains on her face."
-    me "{i}I still don't know how she can do things like that without batting an eye."
-    "You've gotta be inhuman to show that little emotion in this type of scenario. 
+    me "{i}I still don't know how she can do things like that without batting an eye.{/i}"
+    me "{i}You've gotta be inhuman to show that little emotion in this type of scenario. 
     Maybe she has a dark past so she's desensitized to these types of things.{/i}"
     
     "You go upstairs and knock on Annabelle’s door"
 
     me "Hey are you guys alright in there?"
 
-    "Cherry opens the door and lets me in."
+    "The door opens and you are greeted by an exhausted looking Cherry."
 
     scene bg room3
     with fade
