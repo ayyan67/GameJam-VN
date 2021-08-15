@@ -1,34 +1,97 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
+<<<<<<< HEAD
 While running game code:
-  File "game/cherryRoute.rpy", line 35, in script
-    me "[Huh.]"
-KeyError: u'Huh'
+  File "game/annaRoute.rpy", line 70, in script
+    show annabelle sad
+Exception: Image 'annabelle' does not accept attributes 'sad'.
+=======
+While processing text tag {/i} in u"I still have some energy left in me so I guess I'll look around the mansion.{/i}".:
+  File "game/cherryRoute.rpy", line 59, in script
+    "I still have some energy left in me so I guess I'll look around the mansion.{/i}"
+Exception: u'/i' closes a text tag that isn't open.
+>>>>>>> ae5dd5f8feb940a72c85e7c2c38260d53eeb891b
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/cherryRoute.rpy", line 35, in script
-    me "[Huh.]"
+<<<<<<< HEAD
+  File "game/annaRoute.rpy", line 70, in script
+    show annabelle sad
+  File "renpy/ast.py", line 1192, in execute
+    show_imspec(self.imspec, atl=getattr(self, "atl", None))
+  File "renpy/ast.py", line 1162, in show_imspec
+    atl=atl)
+  File "renpy/exports.py", line 744, in show
+    if not base.find_target() and renpy.config.missing_show:
+  File "renpy/display/image.py", line 409, in find_target
+    self.target = target._duplicate(a)
+  File "renpy/display/core.py", line 390, in _duplicate
+    args.extraneous()
+  File "renpy/display/core.py", line 271, in extraneous
+    " ".join(self.args),
+Exception: Image 'annabelle' does not accept attributes 'sad'.
+=======
+  File "game/cherryRoute.rpy", line 59, in script
+    "I still have some energy left in me so I guess I'll look around the mansion.{/i}"
   File "C:\Users\Leo\Downloads\renpy-7.4.8-sdk/renpy/ast.py", line 716, in execute
     renpy.exports.say(who, what, *args, **kwargs)
   File "C:\Users\Leo\Downloads\renpy-7.4.8-sdk/renpy/exports.py", line 1417, in say
     who(what, *args, **kwargs)
-  File "C:\Users\Leo\Downloads\renpy-7.4.8-sdk/renpy/character.py", line 1210, in __call__
-    what = self.prefix_suffix("what", self.what_prefix, what, self.what_suffix)
-  File "C:\Users\Leo\Downloads\renpy-7.4.8-sdk/renpy/character.py", line 1129, in prefix_suffix
-    return (sub(prefix) + sub(body) + sub(suffix))
-  File "C:\Users\Leo\Downloads\renpy-7.4.8-sdk/renpy/character.py", line 1109, in sub
-    return renpy.substitutions.substitute(s, scope=scope, force=force, translate=translate)[0]
-  File "C:\Users\Leo\Downloads\renpy-7.4.8-sdk/renpy/substitutions.py", line 270, in substitute
-    s = formatter.vformat(s, (), kwargs)
-  File "/home/tom/ab/renpy-build/tmp/install.linux-x86_64/lib/python2.7/string.py", line 563, in vformat
-  File "/home/tom/ab/renpy-build/tmp/install.linux-x86_64/lib/python2.7/string.py", line 585, in _vformat
-  File "/home/tom/ab/renpy-build/tmp/install.linux-x86_64/lib/python2.7/string.py", line 646, in get_field
-  File "/home/tom/ab/renpy-build/tmp/install.linux-x86_64/lib/python2.7/string.py", line 605, in get_value
-KeyError: u'Huh'
+  File "C:\Users\Leo\Downloads\renpy-7.4.8-sdk/renpy/character.py", line 1223, in __call__
+    self.do_display(who, what, cb_args=self.cb_args, dtt=dtt, **display_args)
+  File "C:\Users\Leo\Downloads\renpy-7.4.8-sdk/renpy/character.py", line 875, in do_display
+    **display_args)
+  File "C:\Users\Leo\Downloads\renpy-7.4.8-sdk/renpy/character.py", line 621, in display_say
+    rv = renpy.ui.interact(mouse='say', type=type, roll_forward=roll_forward)
+  File "C:\Users\Leo\Downloads\renpy-7.4.8-sdk/renpy/ui.py", line 298, in interact
+    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+  File "C:\Users\Leo\Downloads\renpy-7.4.8-sdk/renpy/display/core.py", line 3276, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, **kwargs)
+  File "C:\Users\Leo\Downloads\renpy-7.4.8-sdk/renpy/display/core.py", line 3793, in interact_core
+    self.draw_screen(root_widget, fullscreen_video, (not fullscreen_video) or video_frame_drawn)
+  File "C:\Users\Leo\Downloads\renpy-7.4.8-sdk/renpy/display/core.py", line 2521, in draw_screen
+    renpy.config.screen_height,
+  File "render.pyx", line 492, in renpy.display.render.render_screen
+  File "render.pyx", line 263, in renpy.display.render.render
+  File "C:\Users\Leo\Downloads\renpy-7.4.8-sdk/renpy/display/layout.py", line 814, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 263, in renpy.display.render.render
+  File "C:\Users\Leo\Downloads\renpy-7.4.8-sdk/renpy/display/layout.py", line 814, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 263, in renpy.display.render.render
+  File "C:\Users\Leo\Downloads\renpy-7.4.8-sdk/renpy/display/layout.py", line 814, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 263, in renpy.display.render.render
+  File "C:\Users\Leo\Downloads\renpy-7.4.8-sdk/renpy/display/screen.py", line 681, in render
+    child = renpy.display.render.render(self.child, w, h, st, at)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 263, in renpy.display.render.render
+  File "C:\Users\Leo\Downloads\renpy-7.4.8-sdk/renpy/display/layout.py", line 814, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 263, in renpy.display.render.render
+  File "C:\Users\Leo\Downloads\renpy-7.4.8-sdk/renpy/display/layout.py", line 1238, in render
+    st, at)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 263, in renpy.display.render.render
+  File "C:\Users\Leo\Downloads\renpy-7.4.8-sdk/renpy/text/text.py", line 2060, in render
+    virtual_layout = Layout(self, width, height, renders, drawable_res=False, size_only=True)
+  File "C:\Users\Leo\Downloads\renpy-7.4.8-sdk/renpy/text/text.py", line 610, in __init__
+    self.paragraphs = self.segment(text.tokens, style, renders, text)
+  File "C:\Users\Leo\Downloads\renpy-7.4.8-sdk/renpy/text/text.py", line 1020, in segment
+    raise Exception("%r closes a text tag that isn't open." % text)
+Exception: u'/i' closes a text tag that isn't open.
+>>>>>>> ae5dd5f8feb940a72c85e7c2c38260d53eeb891b
 
 Windows-10-10.0.19041
 Ren'Py 7.4.8.1895
 GameJam 1.0
-Sat Aug 14 17:55:53 2021
+<<<<<<< HEAD
+Sat Aug 14 19:15:04 2021
+=======
+Sat Aug 14 23:06:06 2021
+>>>>>>> ae5dd5f8feb940a72c85e7c2c38260d53eeb891b

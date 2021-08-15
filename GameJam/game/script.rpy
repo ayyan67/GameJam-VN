@@ -8,7 +8,7 @@ define j = Character("Joffrey", who_color = "#747acc")
 define c = Character("Cherry", who_color = "#e6bb5e")
 define a = Character("Annabelle", who_color = "#ca6e7d")
 define ch = Character("Chef", who_color = "#885d53")
-define m = Character("Maid", who_color = "#e5ba5d")
+define m = Character("Maid", who_color = "#2b2b2b")
 define unknown = Character("???")
 
 define me = Character("[player_name]")
@@ -695,7 +695,7 @@ label play_pong:
     me "{i}She's famished?!{/1}"
 
     menu:
-        "Help cherry find some food":
+        "Help Cherry find some food":
 
             # Choice 1: Help Cherry find food.
 
@@ -707,8 +707,6 @@ label play_pong:
 
             jump day2anna
 
-    label after_menu:
-        "After having my drink, I got on with my morning."
 
 
 #label day2cherry
