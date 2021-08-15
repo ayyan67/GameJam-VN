@@ -2,9 +2,7 @@
 errors listed below, and try again.
 
 
-File "game/annaRouteCherry.rpy", line 64: expected statement.
-    music stop fadeout 1
-                        ^
+File "game/annaRouteSurveillance.rpy", line 123: indentation mismatch.
 
 Ren'Py Version: Ren'Py 7.4.8.1895
-Sun Aug 15 14:26:15 2021
+Sun Aug 15 14:59:47 2021

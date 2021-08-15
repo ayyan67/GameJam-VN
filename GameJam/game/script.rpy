@@ -9,7 +9,7 @@ define c = Character("Cherry", who_color = "#e6bb5e")
 define a = Character("Annabelle", who_color = "#ca6e7d")
 define ch = Character("Chef", who_color = "#885d53")
 define m = Character("Maid", who_color = "#b5b5b5")
-define unknown = Character("???")
+define unknown = Character("???", who_color = "ffffff")
 
 define me = Character("[player_name]", who_color = "ffffff")
 
@@ -18,7 +18,7 @@ define me = Character("[player_name]", who_color = "ffffff")
 label start:
 
     # grabs user PC name
-    scene bg black
+    scene bg white
     
     "The following content may contain elements that are not suitable for some audiences. Viewer discretion is advised."
 
@@ -507,7 +507,7 @@ init python:
                 renpy.timeout(0)
 
             elif self.bx > width + 50:
-                self.winner = "player"
+                self.winner = "Player"
                 renpy.timeout(0)
 
             # Ask that we be re-rendered ASAP, so we can show the next
@@ -556,7 +556,7 @@ screen pong():
         ypos 25
         size 40
 
-    text _("klaus"):
+    text _("Klaus"):
         xpos (1280 - 240)
         xanchor 0.5
         ypos 25

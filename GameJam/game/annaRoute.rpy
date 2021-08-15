@@ -154,7 +154,7 @@ play sound "audio/alarm.mp3"
 #[SOUND: *PHONE ALARM*]
 
 "Awoken to the sound of your 7 am phone alarm. You drowsily put it to snooze and fall back asleep."
-stop audio
+stop sound 
 
 unknown "[me]... ple... ...ke up..."
 
@@ -307,7 +307,11 @@ with fade
 
 "Chef's lifeless body lies on the kitchen floor. His face in a puddle of his own frothy saliva and blood."
 
-scene deathcg1 
+window hide
+scene deathcg1
+with vpunch
+pause 1
+window show
 
 me "Fu- Ugh-"
 
@@ -363,7 +367,7 @@ with fade
 
 show maid
 
-me"If we agree on the cause of death being the pan, next we would need to rule out suspects"
+me"If we agree on the cause of death being the pan, next we would need to rule out suspects."
 
 me "I don't mean to offend you, but do you have an alibi for last night?"
 
@@ -377,14 +381,14 @@ me "I see. I last remember Cherry in the living room and Annabelle by the pool a
 
 me"Okay, I've seen enough. Let's head back."
 
-"You see the maid close the door to the pantry before leaving"
+"You see the maid close the door to the pantry before leaving."
 
 hide maid
 with dis
 
 "{i}Chef probably left it open, he didn't strike me as the organized type.{/i}"
 
-"You and the maid head back to the living room"
+"You and the maid head back to the living room."
 
 scene bg hallway 
 with fade
@@ -393,16 +397,16 @@ show cherry scared
 
 "You pass by Cherry on the way to the living room."
 
-"It seems like she's heading for the kitchen"
+"It seems like she's heading for the kitchen."
 
 scene bg livingroom
 with fade
 
 stop music fadeout 1
 
-"You try to relax a bit and gather your thoughts"
+"You try to relax a bit and gather your thoughts."
 
-me"Okay so the Maid seems to be innocent, even though her behavior is cryptic as hell"
+me"Okay so the Maid seems to be innocent, even though her behavior is cryptic as hell."
 
 me"I need more information about the others though..."
 

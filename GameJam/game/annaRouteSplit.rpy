@@ -11,7 +11,7 @@ menu:
     "Talk to Joffrey" if jDone == False: 
 
         scene bg door
-
+        with fade
         j "I can't believe I'm in this mess! I shouldn't have come to this mansion in the first place! I don't even need the money but now I'm stuck here! AHHHHRG!" 
 
         with vpunch
@@ -28,7 +28,7 @@ menu:
     "Talk to Annabelle" if aDone == False:
 
         scene bg door
-
+        with fade
         a "I'm sorry papa. I-I can't take this anymore, everything is just happening so fast."
 
         "You hear sobbing from the other side of the door."
@@ -43,7 +43,7 @@ menu:
     "Talk to Klaus" if kDone == False:
 
         scene bg cellar
-
+        with fade
         me"..."
 
         show klaus angry
@@ -54,7 +54,7 @@ menu:
 
         me "I'll try to find a way out of here. I swear it."
 
-        "Klaus doesn't respond, while the empty bottles of wine begin to pile up"
+        "Klaus doesn't respond, while the empty bottles of wine begin to pile up."
 
         "What should I do now?"
 

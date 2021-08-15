@@ -4,7 +4,7 @@ label annaRouteCherry:
 
  "{i}Cherry seems to be acting awfully suspicious. I should definetly ask her some questions?{/i}"
 
- me"{i}She was heading to the kitchen if I recall correctly{/i}"
+ me"{i}She was heading to the kitchen if I recall correctly.{/i}"
   
  scene bg hallway
  with fade
@@ -120,7 +120,6 @@ label annaRouteCherry:
 
          scene bg basement
          with fade
-
          
          "You hide in the basement for what seems like an eternity."
          

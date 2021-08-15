@@ -51,7 +51,7 @@ label routePantry:
 
  "{i}Joffrey?! What the hell is she talki-{/i}"
 
- "She begins pinching her nose"
+ "She begins pinching her nose."
 
  m  "For Joffrey to persist from before and for you to even still be here... there must be some special interaction between this space and the candidates?" 
  
