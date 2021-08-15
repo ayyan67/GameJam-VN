@@ -116,7 +116,7 @@ label start:
     unknown "Hi... I'm Annabelle..."
 
     me "{i}I could barely make out what she said from behind her thick round glasses. 
-    Despite her appearance, her timid nature seemed discrepant.{/i}"
+    Despite her appearance, something felt off about her timid personality.{/i}"
 
     hide annabelle
 
@@ -657,9 +657,12 @@ label play_pong:
     me "{i}After eating, we all headed up to our rooms. 
     Joffrey was rambling about doubling profits from his business to Annabelle but she politely shooed him away and closed her door. 
     Joffrey sighs, scoffs and enters the room next to Annabelle's.{/i}"
+
     me "{i}Cherry ended up napping in the living room. I assume she asked Chef for thirds and probably passed out from a food-coma. 
-    I think Klaus got his hands into the wine cellar and started drinking whatever liquid he could find. He's probably passed out there as well. 
-    It's only 10 PM and I'm not sleeping anytime soon, I think I'll just head out, explore the mansion and see if I can talk to anybody.{/i}"
+    I think Klaus got his hands into the wine cellar and started drinking whatever liquid he could find. He's probably passed out there as well.{/i}"
+
+
+    me"{i}It's only 10 PM and I'm not sleeping anytime soon, I think I'll just head out, explore the mansion and see if I can talk to anybody.{/i}"
 
     scene bg hallway
     with fade
