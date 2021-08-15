@@ -695,8 +695,6 @@ label play_pong:
     me "{i}She's famished?!{/1}"
 
     menu:
-        "test"
-
         "Help cherry find some food":
 
             # Choice 1: Help Cherry find food.
