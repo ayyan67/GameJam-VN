@@ -1,75 +1,46 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
-<<<<<<< HEAD
-After initialization, but before game start.
-  File "game/script.rpy", line 49, in prepare_screen
-    screen text_example():
-  File "game/script.rpy", line 49, in prepare
-    screen text_example():
-  File "game/script.rpy", line 50, in prepare
-    frame:
-  File "game/script.rpy", line 50, in prepare
-    frame:
-  File "game/script.rpy", line 52, in prepare
-    text "Dear invited guests
-SyntaxError: EOL while scanning string literal (script.rpy, line 52)
-=======
 While running game code:
-  File "game/annaRouteCherry.rpy", line 89, in script
-    with moveoutdown
-  File "game/annaRouteCherry.rpy", line 89, in <module>
-    with moveoutdown
-NameError: name 'moveoutdown' is not defined
->>>>>>> b41982e492fc7d091d0c725063da695e4f82f988
+  File "game/script.rpy", line 81, in script
+    unknown "Hey you must be the fifth, I'm Klaus"
+IOError: Couldn't find file 'generalOST.mp3'.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-<<<<<<< HEAD
-  File "C:\Users\Leo\Downloads\renpy-7.4.8-sdk/renpy/bootstrap.py", line 326, in bootstrap
-    renpy.main.main()
-  File "C:\Users\Leo\Downloads\renpy-7.4.8-sdk/renpy/main.py", line 617, in main
-    run(restart)
-  File "C:\Users\Leo\Downloads\renpy-7.4.8-sdk/renpy/main.py", line 97, in run
-    renpy.display.screen.prepare_screens()
-  File "C:\Users\Leo\Downloads\renpy-7.4.8-sdk/renpy/display/screen.py", line 939, in prepare_screens
-    s.ast.prepare_screen()
-  File "game/script.rpy", line 49, in prepare_screen
-    screen text_example():
-  File "game/script.rpy", line 49, in prepare
-    screen text_example():
-  File "game/script.rpy", line 50, in prepare
-    frame:
-  File "game/script.rpy", line 50, in prepare
-    frame:
-  File "game/script.rpy", line 52, in prepare
-    text "Dear invited guests
-  File "C:\Users\Leo\Downloads\renpy-7.4.8-sdk/renpy/pyanalysis.py", line 712, in ast_eval
-    return self.ast_eval_literal(expr)[0]
-  File "C:\Users\Leo\Downloads\renpy-7.4.8-sdk/renpy/pyanalysis.py", line 696, in ast_eval_literal
-    expr = py_compile(expr, 'eval', ast_node=True)
-  File "C:\Users\Leo\Downloads\renpy-7.4.8-sdk/renpy/python.py", line 835, in py_compile
-    raise e
-SyntaxError: EOL while scanning string literal (script.rpy, line 52)
-=======
-  File "game/annaRouteCherry.rpy", line 89, in script
-    with moveoutdown
-  File "renpy/ast.py", line 1431, in execute
-    trans = renpy.python.py_eval(self.expr)
-  File "renpy/python.py", line 2266, in py_eval
-    return py_eval_bytecode(code, globals, locals)
-  File "renpy/python.py", line 2259, in py_eval_bytecode
-    return eval(bytecode, globals, locals)
-  File "game/annaRouteCherry.rpy", line 89, in <module>
-    with moveoutdown
-NameError: name 'moveoutdown' is not defined
->>>>>>> b41982e492fc7d091d0c725063da695e4f82f988
+  File "game/script.rpy", line 81, in script
+    unknown "Hey you must be the fifth, I'm Klaus"
+  File "C:\Users\Leo\Downloads\renpy-7.4.8-sdk/renpy/ast.py", line 716, in execute
+    renpy.exports.say(who, what, *args, **kwargs)
+  File "C:\Users\Leo\Downloads\renpy-7.4.8-sdk/renpy/exports.py", line 1417, in say
+    who(what, *args, **kwargs)
+  File "C:\Users\Leo\Downloads\renpy-7.4.8-sdk/renpy/character.py", line 1223, in __call__
+    self.do_display(who, what, cb_args=self.cb_args, dtt=dtt, **display_args)
+  File "C:\Users\Leo\Downloads\renpy-7.4.8-sdk/renpy/character.py", line 875, in do_display
+    **display_args)
+  File "C:\Users\Leo\Downloads\renpy-7.4.8-sdk/renpy/character.py", line 621, in display_say
+    rv = renpy.ui.interact(mouse='say', type=type, roll_forward=roll_forward)
+  File "C:\Users\Leo\Downloads\renpy-7.4.8-sdk/renpy/ui.py", line 298, in interact
+    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+  File "C:\Users\Leo\Downloads\renpy-7.4.8-sdk/renpy/display/core.py", line 3276, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, **kwargs)
+  File "C:\Users\Leo\Downloads\renpy-7.4.8-sdk/renpy/display/core.py", line 3979, in interact_core
+    renpy.audio.audio.periodic()
+  File "C:\Users\Leo\Downloads\renpy-7.4.8-sdk/renpy/audio/audio.py", line 1138, in periodic
+    raise_(exc[0], exc[1], exc[2])
+  File "C:\Users\Leo\Downloads\renpy-7.4.8-sdk/renpy/audio/audio.py", line 1116, in periodic_thread_main
+    periodic_pass()
+  File "C:\Users\Leo\Downloads\renpy-7.4.8-sdk/renpy/audio/audio.py", line 1058, in periodic_pass
+    c.periodic()
+  File "C:\Users\Leo\Downloads\renpy-7.4.8-sdk/renpy/audio/audio.py", line 512, in periodic
+    topf = load(filename)
+  File "C:\Users\Leo\Downloads\renpy-7.4.8-sdk/renpy/audio/audio.py", line 69, in load
+    rv = renpy.loader.load(fn)
+  File "C:\Users\Leo\Downloads\renpy-7.4.8-sdk/renpy/loader.py", line 798, in load
+    raise IOError("Couldn't find file '%s'." % name)
+IOError: Couldn't find file 'generalOST.mp3'.
 
 Windows-10-10.0.19041
 Ren'Py 7.4.8.1895
 GameJam 1.0
-<<<<<<< HEAD
-Sun Aug 15 11:49:25 2021
-=======
-Sun Aug 15 12:38:10 2021
->>>>>>> b41982e492fc7d091d0c725063da695e4f82f988
+Sun Aug 15 12:54:51 2021

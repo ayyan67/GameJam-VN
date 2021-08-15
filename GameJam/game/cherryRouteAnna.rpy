@@ -39,7 +39,7 @@ label day2cherryanna:
 
     me "Have you eaten anything yet?" 
 
-    a  "no"
+    a  "No."
 
     me "Are you not hungry? I'll tell Cherry to get some food for you as well-" 
 
@@ -50,6 +50,8 @@ label day2cherryanna:
     "Neither you nor Annabelle say anything." 
 
     "{i}Crap. It's awkward now. Was I coming on too strong? I have no idea how to follow that. Should I leave? Maybe I'll call Cherry back or something. {/i}" 
+
+    play music "audio/seriousOST.mp3"
 
     a "Are... we... tra...?" 
 
@@ -138,6 +140,8 @@ label day2cherryanna:
 
     scene bg hallway
     with fade
+
+    stop music fadeout 1.0
 
     "You got up and walked out of Annabelle's room feeling defeated."
 

@@ -27,6 +27,8 @@ label day2cherrycherry:
     hide cherry
     show cherry sad
 
+    play music "audio/seriousOST.mp3"
+
     "You and Cherry head downstairs. You try to ignore Joffrey's corpse when passing the living room, but Cherry breaks down into tears." 
 
     c " I'm sorry. I just-" 
@@ -49,6 +51,8 @@ label day2cherrycherry:
     scene bg kitchen
     with fade
     show chef
+    stop music fadeout 1.0
+
 
     ch "Lunch is in an hour. What do you rascals want?" 
 
@@ -83,7 +87,7 @@ label day2cherrycherry:
     scene bg door
     with fade
 
-    "*Knock Knock*"
+    play sound "audio/knock.mp3"
 
     me "Hey, Annabelle? Are you doing well there?" 
 

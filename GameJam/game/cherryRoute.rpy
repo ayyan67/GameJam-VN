@@ -50,6 +50,8 @@ label day2cherry:
 
     me "Good night, I'll see you tomorrow."
 
+    stop music fadeout 1.0
+
     hide cherry
     with moveoutright
 
@@ -97,17 +99,21 @@ label day2cherry:
 
     "However, despite the sudden occurrence, you couldn't be bothered to think more about it and you quickly drift off back to sleep."
 
-
+    window hide
     scene day2
     with fade
     pause 2
     scene bg room2
     with fade
+    window show
 
+    play sound "audio/alarm.mp3"
     # phone alarm sfx
 
     "You awaken to the sound of your phone alarm which was originally set for seven. You drowsily put it to snooze and fall back asleep."
-    
+    stop sound 
+
+
     unknown "[me]... Ple... Ke... Up..." 
 
     unknown "Wa... up..." 
@@ -118,6 +124,8 @@ label day2cherry:
     with moveinbottom
 
     m "Please wake up. There has been a murder in the mansion."
+
+    play music "audio/spookyOST.mp3"
 
     "The maid's words linger in your mind as oyu try to process them. You suddenly sit up alarmed."
 
@@ -354,8 +362,12 @@ label day2cherry:
     me "{i}You've gotta be inhuman to show that little emotion in this type of scenario. 
     Maybe she has a dark past so she's desensitized to these types of things.{/i}"
     
+    stop music fadeout 1.0
+
     scene bg door
     with fade
+
+    play sound "audio/knock.mp3"
 
     "You go upstairs and knock on Annabelle's door"
 
