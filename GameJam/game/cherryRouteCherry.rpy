@@ -1,13 +1,21 @@
 label day2cherrycherry:
     me "Hey, I can help with that." 
 
+    show cherry
+    with dissolve
+
     c "That's great! But do you even have more snacks to be giving up?" 
 
     me "Chef said that he stays in the kitchen overnight, preparing ingredients for the following day. We can see if he has anything for us." 
 
+    show cherry scared
+
     c "I'd ask him but he's kinda hard to approach because he's scary." 
 
     me "Don't worry I'll come with you." 
+
+    show cherry
+    with dissolve
 
     c  "Oh, thank you so much!"
 
@@ -71,6 +79,9 @@ label day2cherrycherry:
     with fade
 
     "After dinner, you take Annabelle's plate of food with you and head upstairs." 
+
+    scene bg door
+    with fade
 
     "*Knock Knock*"
 

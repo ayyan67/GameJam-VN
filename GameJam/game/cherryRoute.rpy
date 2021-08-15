@@ -192,7 +192,7 @@ label day2cherry:
     hide chef
     show maid at left
 
-    m "I'm afraid that is the situation."
+    m "I'm afraid that is the current situation."
 
     k "{b}Man SHIT!{/b}"
     hide maid
@@ -354,15 +354,15 @@ label day2cherry:
     me "{i}You've gotta be inhuman to show that little emotion in this type of scenario. 
     Maybe she has a dark past so she's desensitized to these types of things.{/i}"
     
+    scene bg door
+    with fade
+
     "You go upstairs and knock on Annabelle's door"
 
     me "Hey are you guys alright in there?"
 
     "The door opens and you are greeted by an exhausted looking Cherry."
 
-    scene bg room3
-    with fade
-    
     show cherry scared
     with moveinbottom
 

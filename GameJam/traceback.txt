@@ -1,97 +1,48 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
-<<<<<<< HEAD
-While running game code:
-  File "game/annaRoute.rpy", line 70, in script
-    show annabelle sad
-Exception: Image 'annabelle' does not accept attributes 'sad'.
-=======
-While processing text tag {/i} in u"I still have some energy left in me so I guess I'll look around the mansion.{/i}".:
-  File "game/cherryRoute.rpy", line 59, in script
-    "I still have some energy left in me so I guess I'll look around the mansion.{/i}"
-Exception: u'/i' closes a text tag that isn't open.
->>>>>>> ae5dd5f8feb940a72c85e7c2c38260d53eeb891b
+After initialization, but before game start.
+  File "game/script.rpy", line 49, in prepare_screen
+    screen text_example():
+  File "game/script.rpy", line 49, in prepare
+    screen text_example():
+  File "game/script.rpy", line 50, in prepare
+    frame:
+  File "game/script.rpy", line 50, in prepare
+    frame:
+  File "game/script.rpy", line 52, in prepare
+    text "Dear invited guests
+SyntaxError: EOL while scanning string literal (script.rpy, line 52)
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-<<<<<<< HEAD
-  File "game/annaRoute.rpy", line 70, in script
-    show annabelle sad
-  File "renpy/ast.py", line 1192, in execute
-    show_imspec(self.imspec, atl=getattr(self, "atl", None))
-  File "renpy/ast.py", line 1162, in show_imspec
-    atl=atl)
-  File "renpy/exports.py", line 744, in show
-    if not base.find_target() and renpy.config.missing_show:
-  File "renpy/display/image.py", line 409, in find_target
-    self.target = target._duplicate(a)
-  File "renpy/display/core.py", line 390, in _duplicate
-    args.extraneous()
-  File "renpy/display/core.py", line 271, in extraneous
-    " ".join(self.args),
-Exception: Image 'annabelle' does not accept attributes 'sad'.
-=======
-  File "game/cherryRoute.rpy", line 59, in script
-    "I still have some energy left in me so I guess I'll look around the mansion.{/i}"
-  File "C:\Users\Leo\Downloads\renpy-7.4.8-sdk/renpy/ast.py", line 716, in execute
-    renpy.exports.say(who, what, *args, **kwargs)
-  File "C:\Users\Leo\Downloads\renpy-7.4.8-sdk/renpy/exports.py", line 1417, in say
-    who(what, *args, **kwargs)
-  File "C:\Users\Leo\Downloads\renpy-7.4.8-sdk/renpy/character.py", line 1223, in __call__
-    self.do_display(who, what, cb_args=self.cb_args, dtt=dtt, **display_args)
-  File "C:\Users\Leo\Downloads\renpy-7.4.8-sdk/renpy/character.py", line 875, in do_display
-    **display_args)
-  File "C:\Users\Leo\Downloads\renpy-7.4.8-sdk/renpy/character.py", line 621, in display_say
-    rv = renpy.ui.interact(mouse='say', type=type, roll_forward=roll_forward)
-  File "C:\Users\Leo\Downloads\renpy-7.4.8-sdk/renpy/ui.py", line 298, in interact
-    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
-  File "C:\Users\Leo\Downloads\renpy-7.4.8-sdk/renpy/display/core.py", line 3276, in interact
-    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, **kwargs)
-  File "C:\Users\Leo\Downloads\renpy-7.4.8-sdk/renpy/display/core.py", line 3793, in interact_core
-    self.draw_screen(root_widget, fullscreen_video, (not fullscreen_video) or video_frame_drawn)
-  File "C:\Users\Leo\Downloads\renpy-7.4.8-sdk/renpy/display/core.py", line 2521, in draw_screen
-    renpy.config.screen_height,
-  File "render.pyx", line 492, in renpy.display.render.render_screen
-  File "render.pyx", line 263, in renpy.display.render.render
-  File "C:\Users\Leo\Downloads\renpy-7.4.8-sdk/renpy/display/layout.py", line 814, in render
-    surf = render(child, width, height, cst, cat)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 263, in renpy.display.render.render
-  File "C:\Users\Leo\Downloads\renpy-7.4.8-sdk/renpy/display/layout.py", line 814, in render
-    surf = render(child, width, height, cst, cat)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 263, in renpy.display.render.render
-  File "C:\Users\Leo\Downloads\renpy-7.4.8-sdk/renpy/display/layout.py", line 814, in render
-    surf = render(child, width, height, cst, cat)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 263, in renpy.display.render.render
-  File "C:\Users\Leo\Downloads\renpy-7.4.8-sdk/renpy/display/screen.py", line 681, in render
-    child = renpy.display.render.render(self.child, w, h, st, at)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 263, in renpy.display.render.render
-  File "C:\Users\Leo\Downloads\renpy-7.4.8-sdk/renpy/display/layout.py", line 814, in render
-    surf = render(child, width, height, cst, cat)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 263, in renpy.display.render.render
-  File "C:\Users\Leo\Downloads\renpy-7.4.8-sdk/renpy/display/layout.py", line 1238, in render
-    st, at)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 263, in renpy.display.render.render
-  File "C:\Users\Leo\Downloads\renpy-7.4.8-sdk/renpy/text/text.py", line 2060, in render
-    virtual_layout = Layout(self, width, height, renders, drawable_res=False, size_only=True)
-  File "C:\Users\Leo\Downloads\renpy-7.4.8-sdk/renpy/text/text.py", line 610, in __init__
-    self.paragraphs = self.segment(text.tokens, style, renders, text)
-  File "C:\Users\Leo\Downloads\renpy-7.4.8-sdk/renpy/text/text.py", line 1020, in segment
-    raise Exception("%r closes a text tag that isn't open." % text)
-Exception: u'/i' closes a text tag that isn't open.
->>>>>>> ae5dd5f8feb940a72c85e7c2c38260d53eeb891b
+  File "C:\Users\Leo\Downloads\renpy-7.4.8-sdk/renpy/bootstrap.py", line 326, in bootstrap
+    renpy.main.main()
+  File "C:\Users\Leo\Downloads\renpy-7.4.8-sdk/renpy/main.py", line 617, in main
+    run(restart)
+  File "C:\Users\Leo\Downloads\renpy-7.4.8-sdk/renpy/main.py", line 97, in run
+    renpy.display.screen.prepare_screens()
+  File "C:\Users\Leo\Downloads\renpy-7.4.8-sdk/renpy/display/screen.py", line 939, in prepare_screens
+    s.ast.prepare_screen()
+  File "game/script.rpy", line 49, in prepare_screen
+    screen text_example():
+  File "game/script.rpy", line 49, in prepare
+    screen text_example():
+  File "game/script.rpy", line 50, in prepare
+    frame:
+  File "game/script.rpy", line 50, in prepare
+    frame:
+  File "game/script.rpy", line 52, in prepare
+    text "Dear invited guests
+  File "C:\Users\Leo\Downloads\renpy-7.4.8-sdk/renpy/pyanalysis.py", line 712, in ast_eval
+    return self.ast_eval_literal(expr)[0]
+  File "C:\Users\Leo\Downloads\renpy-7.4.8-sdk/renpy/pyanalysis.py", line 696, in ast_eval_literal
+    expr = py_compile(expr, 'eval', ast_node=True)
+  File "C:\Users\Leo\Downloads\renpy-7.4.8-sdk/renpy/python.py", line 835, in py_compile
+    raise e
+SyntaxError: EOL while scanning string literal (script.rpy, line 52)
 
 Windows-10-10.0.19041
 Ren'Py 7.4.8.1895
 GameJam 1.0
-<<<<<<< HEAD
-Sat Aug 14 19:15:04 2021
-=======
-Sat Aug 14 23:06:06 2021
->>>>>>> ae5dd5f8feb940a72c85e7c2c38260d53eeb891b
+Sun Aug 15 11:49:25 2021

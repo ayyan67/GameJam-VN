@@ -1,5 +1,15 @@
 label day2cherryanna:
-    c "Ah... Ok, I'll try talking to Chef... I'll catch you later!" 
+    me "Chef said that he stays in the kitchen overnight, preparing ingredients for the following day. We can see if he has anything for us." 
+
+    c "I'd ask him but he's kinda hard to approach because he's scary." 
+
+    me "Don't worry, he's a nice guy on the inside."
+
+    c "Ah... Ok, I'll guess I'll try..." 
+
+    show cherry
+
+    c "I'll catch you later!"
 
     me "Yeah, I'll try to get Annabelle to eat lunch too." 
 
@@ -10,6 +20,9 @@ label day2cherryanna:
 
     me "Hey Annabelle? It's me [me], I'm coming in." 
 
+    scene bg room3
+    with fade
+    
     "You enter the room and close the door behind you. Her light is still on, but she remains under her sheets." 
 
     me "Cherry's hungry, so she's going to talk to the Chef. How are you feeling?" 
