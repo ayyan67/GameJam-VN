@@ -1,13 +1,37 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
+<<<<<<< HEAD
+While running game code:
+  File "game/annaRoute.rpy", line 70, in script
+    show annabelle sad
+Exception: Image 'annabelle' does not accept attributes 'sad'.
+=======
 While processing text tag {/i} in u"I still have some energy left in me so I guess I'll look around the mansion.{/i}".:
   File "game/cherryRoute.rpy", line 59, in script
     "I still have some energy left in me so I guess I'll look around the mansion.{/i}"
 Exception: u'/i' closes a text tag that isn't open.
+>>>>>>> ae5dd5f8feb940a72c85e7c2c38260d53eeb891b
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
+<<<<<<< HEAD
+  File "game/annaRoute.rpy", line 70, in script
+    show annabelle sad
+  File "renpy/ast.py", line 1192, in execute
+    show_imspec(self.imspec, atl=getattr(self, "atl", None))
+  File "renpy/ast.py", line 1162, in show_imspec
+    atl=atl)
+  File "renpy/exports.py", line 744, in show
+    if not base.find_target() and renpy.config.missing_show:
+  File "renpy/display/image.py", line 409, in find_target
+    self.target = target._duplicate(a)
+  File "renpy/display/core.py", line 390, in _duplicate
+    args.extraneous()
+  File "renpy/display/core.py", line 271, in extraneous
+    " ".join(self.args),
+Exception: Image 'annabelle' does not accept attributes 'sad'.
+=======
   File "game/cherryRoute.rpy", line 59, in script
     "I still have some energy left in me so I guess I'll look around the mansion.{/i}"
   File "C:\Users\Leo\Downloads\renpy-7.4.8-sdk/renpy/ast.py", line 716, in execute
@@ -61,8 +85,13 @@ Full traceback:
   File "C:\Users\Leo\Downloads\renpy-7.4.8-sdk/renpy/text/text.py", line 1020, in segment
     raise Exception("%r closes a text tag that isn't open." % text)
 Exception: u'/i' closes a text tag that isn't open.
+>>>>>>> ae5dd5f8feb940a72c85e7c2c38260d53eeb891b
 
 Windows-10-10.0.19041
 Ren'Py 7.4.8.1895
 GameJam 1.0
+<<<<<<< HEAD
+Sat Aug 14 19:15:04 2021
+=======
 Sat Aug 14 23:06:06 2021
+>>>>>>> ae5dd5f8feb940a72c85e7c2c38260d53eeb891b

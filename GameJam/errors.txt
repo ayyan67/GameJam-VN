@@ -2,9 +2,7 @@
 errors listed below, and try again.
 
 
-File "game/goodEnd.rpy", line 5: expected statement.
-    pasue 5
-           ^
+File "game/screens.rpy", line 393: indentation mismatch.
 
 Ren'Py Version: Ren'Py 7.4.8.1895
-Sat Aug 14 22:58:18 2021
+Sun Aug 15 00:54:26 2021

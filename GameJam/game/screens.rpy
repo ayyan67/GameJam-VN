@@ -339,6 +339,7 @@ style navigation_button is gui_button
 style navigation_button_text is gui_button_text
 
 style navigation_button:
+    xalign 0.5
     size_group "navigation"
     properties gui.button_properties("navigation_button")
 
@@ -388,7 +389,6 @@ style main_menu_version is main_menu_text
 style main_menu_frame:
     xsize 280
     yfill True
-
     background "gui/overlay/main_menu.png"
 
 style main_menu_vbox:
