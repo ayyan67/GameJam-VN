@@ -2,13 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/cherryRouteAnna.rpy", line 76: end of line expected.
-    a "yes". 
+File "game/goodEnd.rpy", line 5: expected statement.
+    pasue 5
            ^
 
-File "game/cherryRouteAnna.rpy", line 102: expected statement.
-    me … 
-         ^
-
 Ren'Py Version: Ren'Py 7.4.8.1895
-Sat Aug 14 21:59:49 2021
+Sat Aug 14 22:58:18 2021

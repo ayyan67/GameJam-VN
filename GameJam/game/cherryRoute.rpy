@@ -56,7 +56,7 @@ label day2cherry:
     scene bg hallway night
     me "{i}I head back to my room, leaving Cherry in the living room with all my snacks. 
     As I pass by the glass doors leading to the outdoor pool in the back yard, I catch a glimpse of someone still swimming in the pool."
-    "I still have some energy left in me so I guess I’ll look around the mansion.{/i}"
+    "I still have some energy left in me so I guess I'll look around the mansion.{/i}"
 
     "You leave the living room and take a left and then a right. Across the hallway, it's a dead-end, but you notice a staircase leading down below."
 
@@ -71,7 +71,7 @@ label day2cherry:
     show mansion map
     with dissolve
 
-    me "{i}This seems pretty handy, I guess I’ll keep it on me{/i}"
+    me "{i}This seems pretty handy, I guess I'll keep it on me{/i}"
 
     hide mansion map
     with dissolve
@@ -354,7 +354,7 @@ label day2cherry:
     me "{i}You've gotta be inhuman to show that little emotion in this type of scenario. 
     Maybe she has a dark past so she's desensitized to these types of things.{/i}"
     
-    "You go upstairs and knock on Annabelle’s door"
+    "You go upstairs and knock on Annabelle's door"
 
     me "Hey are you guys alright in there?"
 
@@ -366,9 +366,9 @@ label day2cherry:
     show cherry scared
     with moveinbottom
 
-    c "Annabelle is just in her bed right now resting. She’s been through a lot. I think she’s okay for now." 
+    c "Annabelle is just in her bed right now resting. She's been through a lot. I think she's okay for now." 
 
-    me "It’s good she’s calmed down." 
+    me "It's good she's calmed down." 
 
     c "So did you figure anything out?"
 
@@ -380,17 +380,17 @@ label day2cherry:
     c "..."
     c "Are they...?"
 
-    me "If you’re talking about the Chef and the Maid, I doubt its them since they both have alibis." 
+    me "If you're talking about the Chef and the Maid, I doubt its them since they both have alibis." 
 
     c "Are you sure we can trust them?" 
 
-    me "I don’t know about the Chef but the Maid was a great help during the investigation so I think I can trust her. "
+    me "I don't know about the Chef but the Maid was a great help during the investigation so I think I can trust her. "
 
-    c  "That’s good. I think you're one of the few people I can trust here." 
+    c  "That's good. I think you're one of the few people I can trust here." 
 
     me "..."
 
-    c "This whole taking care of Annabelle is stressing me out. I’m starving."
+    c "This whole taking care of Annabelle is stressing me out. I'm starving."
 
     me "Lunch is in an hour."
 
