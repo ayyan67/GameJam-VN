@@ -5,7 +5,6 @@ label revolver:
     "You head out to the main hall in front of the living room. You hear the kitchen door open as the maid exits."
 
     me"{i}Oh, it's just the maid. It looks like she's walking to the gaming room.{/i}"
-    me"{i}Maybe she's good at pong or something. A quick game with her will probably take my mind off everything that's been happening.{/i}"
     me"{i}I don't know anymore... I don't want to doubt these people. There's no way someone among us is capable of these acts - devoid of humanity.{/i}" 
     me"{i}Joffrey may have been an ass, but nothing justifies his death nor how he was treated when he was killed. It's inhuman. {/i}"
 
@@ -35,7 +34,11 @@ label revolver:
     me"{i}He disrespected the Head Chef and his cooking. She may seem emotionless, but even Maid must've been pissed when he just dumped his bags on her and sexually harassed her.{/i}" 
     me"{i}Everyone in this mansion had a motive to kill Joffrey. {/i}"
 
-    "A glint across the room catches your eye." 
+    "However, the more you think about it, the clearer the answer becomes."
+
+    me"{i}I don't want to believe but...{/i}"
+    
+    "As you harden your resolve to confront the truth, a glint across the room catches your eye." 
 
     me "Huh. Is that-"
 

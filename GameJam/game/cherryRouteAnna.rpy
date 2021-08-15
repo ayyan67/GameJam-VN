@@ -5,6 +5,7 @@ label day2cherryanna:
 
     hide cherry
     with moveoutright
+
     # [SOUND: Knock Knock]
 
     me "Hey Annabelle? It's me [me], I'm coming in." 
@@ -29,33 +30,29 @@ label day2cherryanna:
 
     me "Are you not hungry? I'll tell Cherry to get some food for you as well-" 
 
-    a  "No...! Don't..." 
+    a "No, it's fine. I'll eat when I'm ready..." 
 
-    me "Well lunch is in an hour anyway. If you're still not feeling so well, I can ask Chef to bring your food here." 
-
-    a "No...! It's fine... I'll eat when it's time..." 
-
-    me "That's great." 
+    me "Okay..." 
 
     "Neither you nor Annabelle say anything." 
 
     "{i}Crap. It's awkward now. Was I coming on too strong? I have no idea how to follow that. Should I leave? Maybe I'll call Cherry back or something. {/i}" 
 
-    a "Ar... we... tra...?" 
+    a "Are... we... tra...?" 
 
     me "Pardon?" 
 
-    a "Are we trapped...?" 
+    a "Are we trapped?" 
 
     me "I think the owner of the mansion wants to trap the murderer in so they don't get away before the police come." 
 
-    a "Is there police coming...?" 
+    a "Is there police coming?" 
 
-    me "Chef said that they are on their way, but they are going to get here really late for some reason. I don't know why." 
+    me "Chef said that he couldn't get a call to go through, but they are going to get here really soon. I just know it." 
 
     a "..." 
 
-    me "Don't worry, as long as we stick together, there won't be any more murders and eventually when the police come they can find out the culprit." 
+    me "Don't worry, as long as we stick together, everyone will be safe until the authorities get here!" 
 
     a "..." 
 
@@ -97,7 +94,7 @@ label day2cherryanna:
 
     a "I am fine with that..." 
 
-    "{i} Annabelle looks straight into your eyes. I'm prepared for that. {/i}"
+    "{i} Annabelle looks straight into your eyes. Here eyes show a determination you have yet to see since arriving at the mansion.{/i}"
 
     me "So, do you have an alibi?" 
 
@@ -111,25 +108,33 @@ label day2cherryanna:
 
     a "If you still suspect me, I'm a potential murderer in your eyes even if I told you the truth." 
 
-    a "And if you trust Cherry... Even if she lied... You wouldn't suspect her at all..." 
+    a "And if you trust Cherry, even if she lied, you wouldn't suspect her at all..." 
 
-    "{i}What the hell. Is this the same Annabelle? When did she become this provocative? Granted, nothing she said was wrong. If anything, I was naive with the whole stick together idea{/i}"
+    "{i}What? Is this the same Annabelle? When did she become this provocative?{/i}"
+    "{i}Granted, nothing she said was wrong. If anything, I was naive with the whole stick together idea.{/i}"
 
     me "Ok. You know what? You're right. I won't even ask you for your alibi. Because after everything you just said, I'm inclined to doubt everything that comes out of your mouth." 
 
-    a "I don't want to trust someone playing detective. This... This is no game." 
+    a "I don't want to trust someone playing detective. This is no game." 
 
-    a "You are a suspect as well. Stop acting like the main character." 
+    a "You are a suspect as well. Stop trying to act like you're the protagonist." 
 
     "{i}You look away but you can feel the piercing animosity from her gaze.{/i}"
 
     "{i}She's right. I was getting full of myself. I have nothing to say back to her.{/i}"
 
-    "{i}You got up and walked out of Annabelle's room feeling defeated. {/i}"
+    scene bg hallway
+    with fade
 
-    "{i}Time passes despite Chef making four dishes for lunch. Only you, Cherry and Annabelle eat lunch together. Annabelle later asks Maid to deliver her dinner to her room, so only you and Cherry eat dinner in the dining room. Klaus never left the wine cellar.{/i}"
+    "You got up and walked out of Annabelle's room feeling defeated."
 
-    "{i}You bid good night to Cherry, but you aren't tired, so you decide to kill some time exploring the mansion. {/i}"
+    scene bg black
+    with fade
+
+    "Time passes despite Chef making four dishes for lunch. Only you, Cherry and Annabelle eat lunch together."
+    "Annabelle later asks Maid to deliver her dinner to her room, so only you and Cherry eat dinner in the dining room. Klaus never left the wine cellar."
+
+    "You bid good night to Cherry, but you aren't tired, so you decide to kill some time exploring the mansion."
 
     jump revolver
     

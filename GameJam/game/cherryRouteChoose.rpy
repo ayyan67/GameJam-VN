@@ -132,6 +132,9 @@ label cherryChoose:
 
             me "Was it because he was an ass?!" 
 
+            hide annabelle smile
+            show annabelle
+
             a "He tried to assault me." 
 
             me "Huh?"
@@ -147,7 +150,7 @@ label cherryChoose:
 
             a "Shoot me. Or I will kill you and everyone else in this room." 
 
-            "{i} Your palms are sweaty, your grip on the revolver tightens {/i}" 
+            "{i}Your palms are sweaty, your grip on the revolver tightens{/i}" 
 
             a "If I'm the only one alive, I leave with $100,000. That's 100 months worth of rent. A year's worth of salary."
             a "I cannot fathom how someone can throw away that much money so easily. But I won't miss this opportunity. This is for me and my dad."
@@ -170,11 +173,21 @@ label cherryChoose:
 
             "Cherry falls to her knees and starts sobbing in horror. Annabelle turns to you." 
 
-            a "We need the money. If I risked losing this $100.000, I'd be betraying my dad. He's done too much for me. I at least owe this much. I'd rather die than betray him." 
-
+            hide annabelle smile
+            show annabelle
+            with dissolve
+            a "I need the money. If I risked losing this $100,000, I'd be betraying my him. I'd rather die than betray him." 
+             
             "Your eyes are filled with terror. You're shaking. But Annabelle's gaze does not waver." 
 
             a "Shoot me."            
-        
-            jump goodend
 
+            me "Annabelle please..."
+
+            show annabelle smile:
+                yalign 0.1
+                ease 0.5 zoom 2
+
+            "Before you can react, Annabelle rushes towards you and attempts to grab the pistol. You panic and squeeze the trigger."
+            
+            jump goodend
