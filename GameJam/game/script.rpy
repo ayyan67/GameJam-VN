@@ -680,13 +680,16 @@ label play_pong:
     k "Holy moly! This steak's so tender, hey Chef how many grams is this?! I need to know how much protein to drink later!"
 
     "{i}The chef ignores him and walks away. You could've sworn you saw him snear a little while he was leaving but that thought quickly leaves your head.{/i}"
-
+    hide klaus
+    
+    window hide
     scene 3hrs
     with fade
     pause 2
     scene bg room2 # replace with room scene
     with fade
-
+    window show
+    
     me "{i}After eating, we all headed up to our rooms. 
     Joffrey was rambling about doubling profits from his business to Annabelle but she politely shooed him away and closed her door. 
     Joffrey sighs, scoffs and enters the room next to Annabelle's.{/i}"
