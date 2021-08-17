@@ -1,1 +1,1 @@
-lol we done
+Game is now completed
