@@ -1,5 +1,6 @@
-GameJam Visual Novel: Mansion Murder Mystery
-Welcome to the thrilling world of the Mansion Murder Mystery, a captivating visual novel crafted meticulously during the GameJam event. Immerse yourself in a tale that unfolds in a mysterious mansion, filled with original art and vivid character designs. Built with Ren'Py, this game has garnered praise for its intricate plot and immersive experience.
+2021 Alberta GameJam Visual Novel: Midst of Us
+
+Welcome to the thrilling world of Midst of Us, a captivating visual novel crafted meticulously during the GameJam event. Immerse yourself in a tale that unfolds in a mysterious mansion, filled with original art and vivid character designs. Built with Ren'Py, this game has garnered praise for its intricate plot and immersive experience.
 
 Plot
 You're presented with an enigmatic proposition: an email promising a hefty sum of money in return for staying at a grand mansion. Yet, as you venture deeper, you realize there might be more than meets the eye. Uncover dark secrets and unravel the truth in this gripping narrative. Is this offer too good to be true? Dive in to find out.
